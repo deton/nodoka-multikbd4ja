@@ -16,7 +16,7 @@ NODOKAKEY = {
 def main():
     keymaps = {}
     for line in sys.stdin:
-        parseline(keymaps, line.rstrip())
+        parseline(keymaps, line.rstrip("\n"))
     output(keymaps)
 
 def parseline(keymaps, line):
