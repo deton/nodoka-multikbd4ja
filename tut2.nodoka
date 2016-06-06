@@ -1196,7 +1196,7 @@ key K2-x = &PostMessage(ToItself, 0x0102, 0x520a, 1) # 刊
 key K2-y = &PostMessage(ToItself, 0x0102, 0x843d, 1) # 落
 key K2-z = &PostMessage(ToItself, 0x0102, 0x96d1, 1) # 雑
 
-keymap TUT-Code-
+keymap TUT-Code : Global
 key K2-Comma = &Prefix(TUT-Code-Comma)
 key K2-Period = &Prefix(TUT-Code-Period)
 key K2-Slash = &Prefix(TUT-Code-Slash)

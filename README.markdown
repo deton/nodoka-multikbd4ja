@@ -9,10 +9,10 @@
 
 [汎用キーバインディング変更ソフト「のどか」](http://www.appletkan.com/nodoka.htm)の
 [複数キーボード対応](http://www.appletkan.com/nodoka-doc/CUSTOMIZE-ja.html#def_option_UnitID)
-機能を使った試作です。(nodoka-4.28_sampleで試しました。)
+機能を使った試作です。([nodoka-4.28_sample](https://osdn.jp/projects/nodoka4/releases/63839)で試しました。)
 
-日本語の送り付けは、[漢直Win](https://github.com/kanchoku/kw)同様に、PostMessage()でWM_CHARを送っています。
-(IMEを使いたい場合は、SendInput()を使うと行けるかも?)
+日本語の送り付けは、[漢直Win](https://github.com/kanchoku/kw)同様に、[PostMessage()](http://www.appletkan.com/nodoka-doc/CUSTOMIZE-ja.html#function_PostMessage)でWM_CHARを送っています。
+(IMEを使いたい場合は、[SendInput()](http://www.appletkan.com/nodoka-doc/CUSTOMIZE-ja.html#function_SendText)を使うと行けるかも?)
 
 ## 設定方法
 TUT-Code用のtutcode.nodokaでは、キーボードK2を日本語入力用に使う形になっています。
@@ -27,13 +27,13 @@ def option FakeUp = enable 20 84
 ```
 
 (ただし、この設定をすると、Alt-Tabでウインドウ切り替えしようとしても、
-すぐに表示が消えてしまって切り替えできなくなるようです。)
+すぐに表示が消えてしまって切り替えできなくなるようです。Windows7)
 
 ~/dot.nodokaに`include "tutcode.nodoka"`を追加。
 
 ```
 include "tutcode.nodoka"
-window MS-NotePad /:Notepad:Edit$/ : TUT-Code- # メモ帳で試す
+window MS-NotePad /:Notepad:Edit$/ : TUT-Code # メモ帳で試す
 ```
 
 ## ファイルリスト
@@ -41,7 +41,7 @@ window MS-NotePad /:Notepad:Edit$/ : TUT-Code- # メモ帳で試す
 * tut2.nodoka, tut3ty.nodoka, tut3gh.nodoka, tut3vm.nodoka, tut3bn.nodoka:
   tutcode.nodokaからincludeするファイル。
   (ファイルごとに別キーボードの追加がしやすいように別ファイル。)
-* tool/: のどか用設定ファイル生成用スクリプト
+* tool/mk4nodoka.py: のどか用設定ファイル生成用スクリプト(Python2用)
 
 ## 課題
 * キーボードを持ち替えるよりも、普通にモード切り替えの方が早い気もします。
