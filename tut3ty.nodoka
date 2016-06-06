@@ -1,0 +1,510 @@
+keymap TUT-Code-Comma-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x5c0b, 1) # 尋
+key K2-b = &PostMessage(ToItself, 0x0102, 0x80af, 1) # 肯
+key K2-c = &PostMessage(ToItself, 0x0102, 0x7815, 1) # 砕
+key K2-d = &PostMessage(ToItself, 0x0102, 0x7dca, 1) # 緊
+key K2-e = &PostMessage(ToItself, 0x0102, 0x9727, 1) # 霧
+key K2-f = &PostMessage(ToItself, 0x0102, 0x4ec1, 1) # 仁
+key K2-g = &PostMessage(ToItself, 0x0102, 0x5438, 1) # 吸
+key K2-q = &PostMessage(ToItself, 0x0102, 0x6155, 1) # 慕
+key K2-r = &PostMessage(ToItself, 0x0102, 0x80a9, 1) # 肩
+key K2-s = &PostMessage(ToItself, 0x0102, 0x968f, 1) # 随
+key K2-t = &PostMessage(ToItself, 0x0102, 0x9867, 1) # 顧
+key K2-v = &PostMessage(ToItself, 0x0102, 0x4f0d, 1) # 伍
+key K2-w = &PostMessage(ToItself, 0x0102, 0x4e59, 1) # 乙
+key K2-x = &PostMessage(ToItself, 0x0102, 0x4faf, 1) # 侯
+key K2-z = &PostMessage(ToItself, 0x0102, 0x8a6b, 1) # 詫
+
+keymap TUT-Code-Period-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x9bdb, 1) # 鯛
+key K2-b = &PostMessage(ToItself, 0x0102, 0x71ed, 1) # 燭
+key K2-c = &PostMessage(ToItself, 0x0102, 0x97d3, 1) # 韓
+key K2-d = &PostMessage(ToItself, 0x0102, 0x5bb4, 1) # 宴
+key K2-e = &PostMessage(ToItself, 0x0102, 0x7d3a, 1) # 紺
+key K2-f = &PostMessage(ToItself, 0x0102, 0x773a, 1) # 眺
+key K2-g = &PostMessage(ToItself, 0x0102, 0x9010, 1) # 逐
+key K2-q = &PostMessage(ToItself, 0x0102, 0x8702, 1) # 蜂
+key K2-r = &PostMessage(ToItself, 0x0102, 0x60a0, 1) # 悠
+key K2-s = &PostMessage(ToItself, 0x0102, 0x798d, 1) # 禍
+key K2-t = &PostMessage(ToItself, 0x0102, 0x7a83, 1) # 窃
+key K2-v = &PostMessage(ToItself, 0x0102, 0x981a, 1) # 頚
+key K2-w = &PostMessage(ToItself, 0x0102, 0x6094, 1) # 悔
+key K2-x = &PostMessage(ToItself, 0x0102, 0x6867, 1) # 桧
+key K2-z = &PostMessage(ToItself, 0x0102, 0x8997, 1) # 覗
+
+keymap TUT-Code-Slash-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x7483, 1) # 璃
+key K2-b = &PostMessage(ToItself, 0x0102, 0x72f8, 1) # 狸
+key K2-c = &PostMessage(ToItself, 0x0102, 0x8755, 1) # 蝕
+key K2-d = &PostMessage(ToItself, 0x0102, 0x9038, 1) # 逸
+key K2-e = &PostMessage(ToItself, 0x0102, 0x9013, 1) # 逓
+key K2-f = &PostMessage(ToItself, 0x0102, 0x6148, 1) # 慈
+key K2-g = &PostMessage(ToItself, 0x0102, 0x67af, 1) # 枯
+key K2-q = &PostMessage(ToItself, 0x0102, 0x66d9, 1) # 曙
+key K2-r = &PostMessage(ToItself, 0x0102, 0x5f27, 1) # 弧
+key K2-s = &PostMessage(ToItself, 0x0102, 0x584a, 1) # 塊
+key K2-t = &PostMessage(ToItself, 0x0102, 0x5351, 1) # 卑
+key K2-v = &PostMessage(ToItself, 0x0102, 0x7560, 1) # 畠
+key K2-w = &PostMessage(ToItself, 0x0102, 0x6643, 1) # 晃
+key K2-x = &PostMessage(ToItself, 0x0102, 0x6591, 1) # 斑
+key K2-z = &PostMessage(ToItself, 0x0102, 0x6055, 1) # 恕
+
+keymap TUT-Code-Semicolon-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x5192, 1) # 冒
+key K2-b = &PostMessage(ToItself, 0x0102, 0x504f, 1) # 偏
+key K2-c = &PostMessage(ToItself, 0x0102, 0x6589, 1) # 斉
+key K2-d = &PostMessage(ToItself, 0x0102, 0x67c4, 1) # 柄
+key K2-e = &PostMessage(ToItself, 0x0102, 0x5378, 1) # 卸
+key K2-f = &PostMessage(ToItself, 0x0102, 0x7532, 1) # 甲
+key K2-g = &PostMessage(ToItself, 0x0102, 0x907f, 1) # 避
+key K2-q = &PostMessage(ToItself, 0x0102, 0x5c3b, 1) # 尻
+key K2-r = &PostMessage(ToItself, 0x0102, 0x99d2, 1) # 駒
+key K2-s = &PostMessage(ToItself, 0x0102, 0x8f1d, 1) # 輝
+key K2-t = &PostMessage(ToItself, 0x0102, 0x90a3, 1) # 那
+key K2-v = &PostMessage(ToItself, 0x0102, 0x683d, 1) # 栽
+key K2-w = &PostMessage(ToItself, 0x0102, 0x654f, 1) # 敏
+key K2-x = &PostMessage(ToItself, 0x0102, 0x7891, 1) # 碑
+key K2-z = &PostMessage(ToItself, 0x0102, 0x8a72, 1) # 該
+
+keymap TUT-Code-a-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x7985, 1) # 禅
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x9ce9, 1) # 鳩
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x9075, 1) # 遵
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x65e8, 1) # 旨
+key K2-h = &PostMessage(ToItself, 0x0102, 0x7ffc, 1) # 翼
+key K2-i = &PostMessage(ToItself, 0x0102, 0x6edd, 1) # 滝
+key K2-j = &PostMessage(ToItself, 0x0102, 0x6298, 1) # 折
+key K2-k = &PostMessage(ToItself, 0x0102, 0x604b, 1) # 恋
+key K2-l = &PostMessage(ToItself, 0x0102, 0x7167, 1) # 照
+key K2-m = &PostMessage(ToItself, 0x0102, 0x6f20, 1) # 漠
+key K2-n = &PostMessage(ToItself, 0x0102, 0x5507, 1) # 唇
+key K2-o = &PostMessage(ToItself, 0x0102, 0x602a, 1) # 怪
+key K2-p = &PostMessage(ToItself, 0x0102, 0x9d8f, 1) # 鶏
+key K2-u = &PostMessage(ToItself, 0x0102, 0x7686, 1) # 皆
+key K2-y = &PostMessage(ToItself, 0x0102, 0x7e04, 1) # 縄
+
+keymap TUT-Code-b-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x76c3, 1) # 盃
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x79bf, 1) # 禿
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x9017, 1) # 逗
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x5766, 1) # 坦
+key K2-h = &PostMessage(ToItself, 0x0102, 0x7cfe, 1) # 糾
+key K2-i = &PostMessage(ToItself, 0x0102, 0x5208, 1) # 刈
+key K2-j = &PostMessage(ToItself, 0x0102, 0x55e3, 1) # 嗣
+key K2-k = &PostMessage(ToItself, 0x0102, 0x6731, 1) # 朱
+key K2-l = &PostMessage(ToItself, 0x0102, 0x5d07, 1) # 崇
+key K2-m = &PostMessage(ToItself, 0x0102, 0x693f, 1) # 椿
+key K2-n = &PostMessage(ToItself, 0x0102, 0x65a7, 1) # 斧
+key K2-o = &PostMessage(ToItself, 0x0102, 0x65a5, 1) # 斥
+key K2-p = &PostMessage(ToItself, 0x0102, 0x6c5d, 1) # 汝
+key K2-u = &PostMessage(ToItself, 0x0102, 0x6ccc, 1) # 泌
+key K2-y = &PostMessage(ToItself, 0x0102, 0x7709, 1) # 眉
+
+keymap TUT-Code-c-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x916a, 1) # 酪
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x6167, 1) # 慧
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x7cca, 1) # 糊
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x8986, 1) # 覆
+key K2-h = &PostMessage(ToItself, 0x0102, 0x9589, 1) # 閉
+key K2-i = &PostMessage(ToItself, 0x0102, 0x786b, 1) # 硫
+key K2-j = &PostMessage(ToItself, 0x0102, 0x65d7, 1) # 旗
+key K2-k = &PostMessage(ToItself, 0x0102, 0x5ec3, 1) # 廃
+key K2-l = &PostMessage(ToItself, 0x0102, 0x5263, 1) # 剣
+key K2-m = &PostMessage(ToItself, 0x0102, 0x64e6, 1) # 擦
+key K2-n = &PostMessage(ToItself, 0x0102, 0x7d10, 1) # 紐
+key K2-o = &PostMessage(ToItself, 0x0102, 0x5091, 1) # 傑
+key K2-p = &PostMessage(ToItself, 0x0102, 0x5782, 1) # 垂
+key K2-u = &PostMessage(ToItself, 0x0102, 0x6398, 1) # 掘
+key K2-y = &PostMessage(ToItself, 0x0102, 0x61f8, 1) # 懸
+
+keymap TUT-Code-d-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x76ae, 1) # 皮
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x821f, 1) # 舟
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x67f1, 1) # 柱
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x8131, 1) # 脱
+key K2-h = &PostMessage(ToItself, 0x0102, 0x6075, 1) # 恵
+key K2-i = &PostMessage(ToItself, 0x0102, 0x56fa, 1) # 固
+key K2-j = &PostMessage(ToItself, 0x0102, 0x5cb8, 1) # 岸
+key K2-k = &PostMessage(ToItself, 0x0102, 0x5ba2, 1) # 客
+key K2-l = &PostMessage(ToItself, 0x0102, 0x6f01, 1) # 漁
+key K2-m = &PostMessage(ToItself, 0x0102, 0x7551, 1) # 畑
+key K2-n = &PostMessage(ToItself, 0x0102, 0x7db2, 1) # 網
+key K2-o = &PostMessage(ToItself, 0x0102, 0x7dbf, 1) # 綿
+key K2-p = &PostMessage(ToItself, 0x0102, 0x52c9, 1) # 勉
+key K2-u = &PostMessage(ToItself, 0x0102, 0x526f, 1) # 副
+key K2-y = &PostMessage(ToItself, 0x0102, 0x6b53, 1) # 歓
+
+keymap TUT-Code-e-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x7565, 1) # 略
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x662f, 1) # 是
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x524a, 1) # 削
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x8133, 1) # 脳
+key K2-h = &PostMessage(ToItself, 0x0102, 0x8d70, 1) # 走
+key K2-i = &PostMessage(ToItself, 0x0102, 0x4ee4, 1) # 令
+key K2-j = &PostMessage(ToItself, 0x0102, 0x59bb, 1) # 妻
+key K2-k = &PostMessage(ToItself, 0x0102, 0x9769, 1) # 革
+key K2-l = &PostMessage(ToItself, 0x0102, 0x5c5e, 1) # 属
+key K2-m = &PostMessage(ToItself, 0x0102, 0x60a3, 1) # 患
+key K2-n = &PostMessage(ToItself, 0x0102, 0x5a01, 1) # 威
+key K2-o = &PostMessage(ToItself, 0x0102, 0x96a3, 1) # 隣
+key K2-p = &PostMessage(ToItself, 0x0102, 0x53b3, 1) # 厳
+key K2-u = &PostMessage(ToItself, 0x0102, 0x79d8, 1) # 秘
+key K2-y = &PostMessage(ToItself, 0x0102, 0x8a33, 1) # 訳
+
+keymap TUT-Code-f-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x9cf4, 1) # 鳴
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x5999, 1) # 妙
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x7c8b, 1) # 粋
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x5531, 1) # 唱
+key K2-h = &PostMessage(ToItself, 0x0102, 0x5747, 1) # 均
+key K2-i = &PostMessage(ToItself, 0x0102, 0x5800, 1) # 堀
+key K2-j = &PostMessage(ToItself, 0x0102, 0x8b72, 1) # 譲
+key K2-k = &PostMessage(ToItself, 0x0102, 0x9664, 1) # 除
+key K2-l = &PostMessage(ToItself, 0x0102, 0x685c, 1) # 桜
+key K2-m = &PostMessage(ToItself, 0x0102, 0x6d6a, 1) # 浪
+key K2-n = &PostMessage(ToItself, 0x0102, 0x864e, 1) # 虎
+key K2-o = &PostMessage(ToItself, 0x0102, 0x5247, 1) # 則
+key K2-p = &PostMessage(ToItself, 0x0102, 0x5145, 1) # 充
+key K2-u = &PostMessage(ToItself, 0x0102, 0x5e45, 1) # 幅
+key K2-y = &PostMessage(ToItself, 0x0102, 0x50ac, 1) # 催
+
+keymap TUT-Code-g-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x5fae, 1) # 微
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x7948, 1) # 祈
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x9077, 1) # 遷
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x6bd2, 1) # 毒
+key K2-h = &PostMessage(ToItself, 0x0102, 0x5217, 1) # 列
+key K2-i = &PostMessage(ToItself, 0x0102, 0x5275, 1) # 創
+key K2-j = &PostMessage(ToItself, 0x0102, 0x9b5a, 1) # 魚
+key K2-k = &PostMessage(ToItself, 0x0102, 0x5178, 1) # 典
+key K2-l = &PostMessage(ToItself, 0x0102, 0x5ba3, 1) # 宣
+key K2-m = &PostMessage(ToItself, 0x0102, 0x9ed9, 1) # 黙
+key K2-n = &PostMessage(ToItself, 0x0102, 0x60dc, 1) # 惜
+key K2-o = &PostMessage(ToItself, 0x0102, 0x8e0a, 1) # 踊
+key K2-p = &PostMessage(ToItself, 0x0102, 0x7dd2, 1) # 緒
+key K2-u = &PostMessage(ToItself, 0x0102, 0x9045, 1) # 遅
+key K2-y = &PostMessage(ToItself, 0x0102, 0x9700, 1) # 需
+
+keymap TUT-Code-h-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x63b2, 1) # 掲
+key K2-b = &PostMessage(ToItself, 0x0102, 0x7dbe, 1) # 綾
+key K2-c = &PostMessage(ToItself, 0x0102, 0x7573, 1) # 畳
+key K2-d = &PostMessage(ToItself, 0x0102, 0x6e6f, 1) # 湯
+key K2-e = &PostMessage(ToItself, 0x0102, 0x6e56, 1) # 湖
+key K2-f = &PostMessage(ToItself, 0x0102, 0x547c, 1) # 呼
+key K2-g = &PostMessage(ToItself, 0x0102, 0x7d61, 1) # 絡
+key K2-q = &PostMessage(ToItself, 0x0102, 0x5339, 1) # 匹
+key K2-r = &PostMessage(ToItself, 0x0102, 0x4ed9, 1) # 仙
+key K2-s = &PostMessage(ToItself, 0x0102, 0x8584, 1) # 薄
+key K2-t = &PostMessage(ToItself, 0x0102, 0x63cf, 1) # 描
+key K2-v = &PostMessage(ToItself, 0x0102, 0x6843, 1) # 桃
+key K2-w = &PostMessage(ToItself, 0x0102, 0x7687, 1) # 皇
+key K2-x = &PostMessage(ToItself, 0x0102, 0x54c0, 1) # 哀
+key K2-z = &PostMessage(ToItself, 0x0102, 0x71c8, 1) # 燈
+
+keymap TUT-Code-i-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x8ca8, 1) # 貨
+key K2-b = &PostMessage(ToItself, 0x0102, 0x6817, 1) # 栗
+key K2-c = &PostMessage(ToItself, 0x0102, 0x75c7, 1) # 症
+key K2-d = &PostMessage(ToItself, 0x0102, 0x6a21, 1) # 模
+key K2-e = &PostMessage(ToItself, 0x0102, 0x6613, 1) # 易
+key K2-f = &PostMessage(ToItself, 0x0102, 0x5e0c, 1) # 希
+key K2-g = &PostMessage(ToItself, 0x0102, 0x90b8, 1) # 邸
+key K2-q = &PostMessage(ToItself, 0x0102, 0x50da, 1) # 僚
+key K2-r = &PostMessage(ToItself, 0x0102, 0x9ce5, 1) # 鳥
+key K2-s = &PostMessage(ToItself, 0x0102, 0x90e1, 1) # 郡
+key K2-t = &PostMessage(ToItself, 0x0102, 0x679a, 1) # 枚
+key K2-v = &PostMessage(ToItself, 0x0102, 0x62e0, 1) # 拠
+key K2-w = &PostMessage(ToItself, 0x0102, 0x7c89, 1) # 粉
+key K2-x = &PostMessage(ToItself, 0x0102, 0x8178, 1) # 腸
+key K2-z = &PostMessage(ToItself, 0x0102, 0x622f, 1) # 戯
+
+keymap TUT-Code-j-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x5cb3, 1) # 岳
+key K2-b = &PostMessage(ToItself, 0x0102, 0x4f0e, 1) # 伎
+key K2-c = &PostMessage(ToItself, 0x0102, 0x9805, 1) # 項
+key K2-d = &PostMessage(ToItself, 0x0102, 0x95d8, 1) # 闘
+key K2-e = &PostMessage(ToItself, 0x0102, 0x63a1, 1) # 採
+key K2-f = &PostMessage(ToItself, 0x0102, 0x7591, 1) # 疑
+key K2-g = &PostMessage(ToItself, 0x0102, 0x4ecf, 1) # 仏
+key K2-q = &PostMessage(ToItself, 0x0102, 0x65ec, 1) # 旬
+key K2-r = &PostMessage(ToItself, 0x0102, 0x96e2, 1) # 離
+key K2-s = &PostMessage(ToItself, 0x0102, 0x79d2, 1) # 秒
+key K2-t = &PostMessage(ToItself, 0x0102, 0x529f, 1) # 功
+key K2-v = &PostMessage(ToItself, 0x0102, 0x543e, 1) # 吾
+key K2-w = &PostMessage(ToItself, 0x0102, 0x98fe, 1) # 飾
+key K2-x = &PostMessage(ToItself, 0x0102, 0x6012, 1) # 怒
+key K2-z = &PostMessage(ToItself, 0x0102, 0x4ef0, 1) # 仰
+
+keymap TUT-Code-k-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x5bff, 1) # 寿
+key K2-b = &PostMessage(ToItself, 0x0102, 0x75b2, 1) # 疲
+key K2-c = &PostMessage(ToItself, 0x0102, 0x785d, 1) # 硝
+key K2-d = &PostMessage(ToItself, 0x0102, 0x90a6, 1) # 邦
+key K2-e = &PostMessage(ToItself, 0x0102, 0x5883, 1) # 境
+key K2-f = &PostMessage(ToItself, 0x0102, 0x8846, 1) # 衆
+key K2-g = &PostMessage(ToItself, 0x0102, 0x59ff, 1) # 姿
+key K2-q = &PostMessage(ToItself, 0x0102, 0x6f5f, 1) # 潟
+key K2-r = &PostMessage(ToItself, 0x0102, 0x501f, 1) # 借
+key K2-s = &PostMessage(ToItself, 0x0102, 0x653b, 1) # 攻
+key K2-t = &PostMessage(ToItself, 0x0102, 0x5915, 1) # 夕
+key K2-v = &PostMessage(ToItself, 0x0102, 0x81e3, 1) # 臣
+key K2-w = &PostMessage(ToItself, 0x0102, 0x535a, 1) # 博
+key K2-x = &PostMessage(ToItself, 0x0102, 0x67d3, 1) # 染
+key K2-z = &PostMessage(ToItself, 0x0102, 0x8f03, 1) # 較
+
+keymap TUT-Code-l-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x7344, 1) # 獄
+key K2-b = &PostMessage(ToItself, 0x0102, 0x60a6, 1) # 悦
+key K2-c = &PostMessage(ToItself, 0x0102, 0x6691, 1) # 暑
+key K2-d = &PostMessage(ToItself, 0x0102, 0x9178, 1) # 酸
+key K2-e = &PostMessage(ToItself, 0x0102, 0x4f75, 1) # 併
+key K2-f = &PostMessage(ToItself, 0x0102, 0x672d, 1) # 札
+key K2-g = &PostMessage(ToItself, 0x0102, 0x4e39, 1) # 丹
+key K2-q = &PostMessage(ToItself, 0x0102, 0x6247, 1) # 扇
+key K2-r = &PostMessage(ToItself, 0x0102, 0x57f7, 1) # 執
+key K2-s = &PostMessage(ToItself, 0x0102, 0x50cf, 1) # 像
+key K2-t = &PostMessage(ToItself, 0x0102, 0x83ca, 1) # 菊
+key K2-v = &PostMessage(ToItself, 0x0102, 0x6ce5, 1) # 泥
+key K2-w = &PostMessage(ToItself, 0x0102, 0x5c4a, 1) # 届
+key K2-x = &PostMessage(ToItself, 0x0102, 0x65bc, 1) # 於
+key K2-z = &PostMessage(ToItself, 0x0102, 0x4ec7, 1) # 仇
+
+keymap TUT-Code-m-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x7bed, 1) # 篭
+key K2-b = &PostMessage(ToItself, 0x0102, 0x633a, 1) # 挺
+key K2-c = &PostMessage(ToItself, 0x0102, 0x65e6, 1) # 旦
+key K2-d = &PostMessage(ToItself, 0x0102, 0x4e7e, 1) # 乾
+key K2-e = &PostMessage(ToItself, 0x0102, 0x9063, 1) # 遣
+key K2-f = &PostMessage(ToItself, 0x0102, 0x79e9, 1) # 秩
+key K2-g = &PostMessage(ToItself, 0x0102, 0x9802, 1) # 頂
+key K2-q = &PostMessage(ToItself, 0x0102, 0x8df3, 1) # 跳
+key K2-r = &PostMessage(ToItself, 0x0102, 0x6b04, 1) # 欄
+key K2-s = &PostMessage(ToItself, 0x0102, 0x58ee, 1) # 壮
+key K2-t = &PostMessage(ToItself, 0x0102, 0x85a9, 1) # 薩
+key K2-v = &PostMessage(ToItself, 0x0102, 0x66f2, 1) # 曲
+key K2-w = &PostMessage(ToItself, 0x0102, 0x62d8, 1) # 拘
+key K2-x = &PostMessage(ToItself, 0x0102, 0x73b2, 1) # 玲
+key K2-z = &PostMessage(ToItself, 0x0102, 0x6b64, 1) # 此
+
+keymap TUT-Code-n-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x732a, 1) # 猪
+key K2-b = &PostMessage(ToItself, 0x0102, 0x87f9, 1) # 蟹
+key K2-c = &PostMessage(ToItself, 0x0102, 0x4f43, 1) # 佃
+key K2-d = &PostMessage(ToItself, 0x0102, 0x8247, 1) # 艇
+key K2-e = &PostMessage(ToItself, 0x0102, 0x7336, 1) # 猶
+key K2-f = &PostMessage(ToItself, 0x0102, 0x6681, 1) # 暁
+key K2-g = &PostMessage(ToItself, 0x0102, 0x8cca, 1) # 賊
+key K2-q = &PostMessage(ToItself, 0x0102, 0x81fc, 1) # 臼
+key K2-r = &PostMessage(ToItself, 0x0102, 0x9f13, 1) # 鼓
+key K2-s = &PostMessage(ToItself, 0x0102, 0x541f, 1) # 吟
+key K2-t = &PostMessage(ToItself, 0x0102, 0x67a2, 1) # 枢
+key K2-v = &PostMessage(ToItself, 0x0102, 0x66f3, 1) # 曳
+key K2-w = &PostMessage(ToItself, 0x0102, 0x6d29, 1) # 洩
+key K2-x = &PostMessage(ToItself, 0x0102, 0x61a7, 1) # 憧
+key K2-z = &PostMessage(ToItself, 0x0102, 0x585e, 1) # 塞
+
+keymap TUT-Code-o-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x92ed, 1) # 鋭
+key K2-b = &PostMessage(ToItself, 0x0102, 0x8a5e, 1) # 詞
+key K2-c = &PostMessage(ToItself, 0x0102, 0x9f3b, 1) # 鼻
+key K2-d = &PostMessage(ToItself, 0x0102, 0x7968, 1) # 票
+key K2-e = &PostMessage(ToItself, 0x0102, 0x7ae0, 1) # 章
+key K2-f = &PostMessage(ToItself, 0x0102, 0x80cc, 1) # 背
+key K2-g = &PostMessage(ToItself, 0x0102, 0x523a, 1) # 刺
+key K2-q = &PostMessage(ToItself, 0x0102, 0x8033, 1) # 耳
+key K2-r = &PostMessage(ToItself, 0x0102, 0x5448, 1) # 呈
+key K2-s = &PostMessage(ToItself, 0x0102, 0x8cb4, 1) # 貴
+key K2-t = &PostMessage(ToItself, 0x0102, 0x5de1, 1) # 巡
+key K2-v = &PostMessage(ToItself, 0x0102, 0x6ec5, 1) # 滅
+key K2-w = &PostMessage(ToItself, 0x0102, 0x8caf, 1) # 貯
+key K2-x = &PostMessage(ToItself, 0x0102, 0x65ac, 1) # 斬
+key K2-z = &PostMessage(ToItself, 0x0102, 0x971e, 1) # 霞
+
+keymap TUT-Code-p-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x6f64, 1) # 潤
+key K2-b = &PostMessage(ToItself, 0x0102, 0x61d0, 1) # 懐
+key K2-c = &PostMessage(ToItself, 0x0102, 0x4f46, 1) # 但
+key K2-d = &PostMessage(ToItself, 0x0102, 0x9014, 1) # 途
+key K2-e = &PostMessage(ToItself, 0x0102, 0x8d85, 1) # 超
+key K2-f = &PostMessage(ToItself, 0x0102, 0x6cbc, 1) # 沼
+key K2-g = &PostMessage(ToItself, 0x0102, 0x675f, 1) # 束
+key K2-q = &PostMessage(ToItself, 0x0102, 0x508d, 1) # 傍
+key K2-r = &PostMessage(ToItself, 0x0102, 0x66f9, 1) # 曹
+key K2-s = &PostMessage(ToItself, 0x0102, 0x5e7c, 1) # 幼
+key K2-t = &PostMessage(ToItself, 0x0102, 0x98fc, 1) # 飼
+key K2-v = &PostMessage(ToItself, 0x0102, 0x75be, 1) # 疾
+key K2-w = &PostMessage(ToItself, 0x0102, 0x6211, 1) # 我
+key K2-x = &PostMessage(ToItself, 0x0102, 0x6168, 1) # 慨
+key K2-z = &PostMessage(ToItself, 0x0102, 0x633f, 1) # 挿
+
+keymap TUT-Code-q-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x80c6, 1) # 胆
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x98fd, 1) # 飽
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x7b51, 1) # 筑
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x5bf8, 1) # 寸
+key K2-h = &PostMessage(ToItself, 0x0102, 0x7bc4, 1) # 範
+key K2-i = &PostMessage(ToItself, 0x0102, 0x9b45, 1) # 魅
+key K2-j = &PostMessage(ToItself, 0x0102, 0x6551, 1) # 救
+key K2-k = &PostMessage(ToItself, 0x0102, 0x7d99, 1) # 継
+key K2-l = &PostMessage(ToItself, 0x0102, 0x8a70, 1) # 詰
+key K2-m = &PostMessage(ToItself, 0x0102, 0x5a20, 1) # 娠
+key K2-n = &PostMessage(ToItself, 0x0102, 0x5954, 1) # 奔
+key K2-o = &PostMessage(ToItself, 0x0102, 0x5ac1, 1) # 嫁
+key K2-p = &PostMessage(ToItself, 0x0102, 0x5606, 1) # 嘆
+key K2-u = &PostMessage(ToItself, 0x0102, 0x5fd8, 1) # 忘
+key K2-y = &PostMessage(ToItself, 0x0102, 0x667a, 1) # 智
+
+keymap TUT-Code-r-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x514b, 1) # 克
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x629e, 1) # 択
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x5b54, 1) # 孔
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x8de1, 1) # 跡
+key K2-h = &PostMessage(ToItself, 0x0102, 0x9999, 1) # 香
+key K2-i = &PostMessage(ToItself, 0x0102, 0x6e2c, 1) # 測
+key K2-j = &PostMessage(ToItself, 0x0102, 0x51e6, 1) # 処
+key K2-k = &PostMessage(ToItself, 0x0102, 0x8acb, 1) # 請
+key K2-l = &PostMessage(ToItself, 0x0102, 0x6297, 1) # 抗
+key K2-m = &PostMessage(ToItself, 0x0102, 0x53e5, 1) # 句
+key K2-n = &PostMessage(ToItself, 0x0102, 0x8010, 1) # 耐
+key K2-o = &PostMessage(ToItself, 0x0102, 0x6176, 1) # 慶
+key K2-p = &PostMessage(ToItself, 0x0102, 0x60d1, 1) # 惑
+key K2-u = &PostMessage(ToItself, 0x0102, 0x96ea, 1) # 雪
+key K2-y = &PostMessage(ToItself, 0x0102, 0x6e90, 1) # 源
+
+keymap TUT-Code-s-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x90ca, 1) # 郊
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x85ab, 1) # 薫
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x58be, 1) # 墾
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x51cd, 1) # 凍
+key K2-h = &PostMessage(ToItself, 0x0102, 0x5360, 1) # 占
+key K2-i = &PostMessage(ToItself, 0x0102, 0x9e7f, 1) # 鹿
+key K2-j = &PostMessage(ToItself, 0x0102, 0x8a8c, 1) # 誌
+key K2-k = &PostMessage(ToItself, 0x0102, 0x7642, 1) # 療
+key K2-l = &PostMessage(ToItself, 0x0102, 0x9298, 1) # 銘
+key K2-m = &PostMessage(ToItself, 0x0102, 0x9396, 1) # 鎖
+key K2-n = &PostMessage(ToItself, 0x0102, 0x5b22, 1) # 嬢
+key K2-o = &PostMessage(ToItself, 0x0102, 0x7126, 1) # 焦
+key K2-p = &PostMessage(ToItself, 0x0102, 0x8b5c, 1) # 譜
+key K2-u = &PostMessage(ToItself, 0x0102, 0x77e2, 1) # 矢
+key K2-y = &PostMessage(ToItself, 0x0102, 0x63a2, 1) # 探
+
+keymap TUT-Code-t-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x8b39, 1) # 謹
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x51f6, 1) # 凶
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x5dcc, 1) # 巌
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x72c2, 1) # 狂
+key K2-h = &PostMessage(ToItself, 0x0102, 0x5c64, 1) # 層
+key K2-i = &PostMessage(ToItself, 0x0102, 0x6717, 1) # 朗
+key K2-j = &PostMessage(ToItself, 0x0102, 0x7559, 1) # 留
+key K2-k = &PostMessage(ToItself, 0x0102, 0x4e9c, 1) # 亜
+key K2-l = &PostMessage(ToItself, 0x0102, 0x4f34, 1) # 伴
+key K2-m = &PostMessage(ToItself, 0x0102, 0x7b1b, 1) # 笛
+key K2-n = &PostMessage(ToItself, 0x0102, 0x4f8d, 1) # 侍
+key K2-o = &PostMessage(ToItself, 0x0102, 0x65e2, 1) # 既
+key K2-p = &PostMessage(ToItself, 0x0102, 0x61a9, 1) # 憩
+key K2-u = &PostMessage(ToItself, 0x0102, 0x7d33, 1) # 紳
+key K2-y = &PostMessage(ToItself, 0x0102, 0x6050, 1) # 恐
+
+keymap TUT-Code-u-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x8cdb, 1) # 賛
+key K2-b = &PostMessage(ToItself, 0x0102, 0x6614, 1) # 昔
+key K2-c = &PostMessage(ToItself, 0x0102, 0x7159, 1) # 煙
+key K2-d = &PostMessage(ToItself, 0x0102, 0x82e6, 1) # 苦
+key K2-e = &PostMessage(ToItself, 0x0102, 0x53bb, 1) # 去
+key K2-f = &PostMessage(ToItself, 0x0102, 0x5bdf, 1) # 察
+key K2-g = &PostMessage(ToItself, 0x0102, 0x901f, 1) # 速
+key K2-q = &PostMessage(ToItself, 0x0102, 0x9451, 1) # 鑑
+key K2-r = &PostMessage(ToItself, 0x0102, 0x76ca, 1) # 益
+key K2-s = &PostMessage(ToItself, 0x0102, 0x66b4, 1) # 暴
+key K2-t = &PostMessage(ToItself, 0x0102, 0x8a34, 1) # 訴
+key K2-v = &PostMessage(ToItself, 0x0102, 0x614e, 1) # 慎
+key K2-w = &PostMessage(ToItself, 0x0102, 0x8302, 1) # 茂
+key K2-x = &PostMessage(ToItself, 0x0102, 0x59eb, 1) # 姫
+key K2-z = &PostMessage(ToItself, 0x0102, 0x7d9c, 1) # 綜
+
+keymap TUT-Code-v-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x6602, 1) # 昂
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x7460, 1) # 瑠
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x7c95, 1) # 粕
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x751a, 1) # 甚
+key K2-h = &PostMessage(ToItself, 0x0102, 0x716e, 1) # 煮
+key K2-i = &PostMessage(ToItself, 0x0102, 0x8b19, 1) # 謙
+key K2-j = &PostMessage(ToItself, 0x0102, 0x6cca, 1) # 泊
+key K2-k = &PostMessage(ToItself, 0x0102, 0x7518, 1) # 甘
+key K2-l = &PostMessage(ToItself, 0x0102, 0x6f84, 1) # 澄
+key K2-m = &PostMessage(ToItself, 0x0102, 0x631f, 1) # 挟
+key K2-n = &PostMessage(ToItself, 0x0102, 0x6715, 1) # 朕
+key K2-o = &PostMessage(ToItself, 0x0102, 0x932c, 1) # 錬
+key K2-p = &PostMessage(ToItself, 0x0102, 0x53d4, 1) # 叔
+key K2-u = &PostMessage(ToItself, 0x0102, 0x5f69, 1) # 彩
+key K2-y = &PostMessage(ToItself, 0x0102, 0x81ed, 1) # 臭
+
+keymap TUT-Code-w-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x8ca7, 1) # 貧
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x697c, 1) # 楼
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x97fb, 1) # 韻
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x8ed2, 1) # 軒
+key K2-h = &PostMessage(ToItself, 0x0102, 0x7d39, 1) # 紹
+key K2-i = &PostMessage(ToItself, 0x0102, 0x8ff0, 1) # 述
+key K2-j = &PostMessage(ToItself, 0x0102, 0x81e8, 1) # 臨
+key K2-k = &PostMessage(ToItself, 0x0102, 0x7802, 1) # 砂
+key K2-l = &PostMessage(ToItself, 0x0102, 0x53cc, 1) # 双
+key K2-m = &PostMessage(ToItself, 0x0102, 0x63c3, 1) # 揃
+key K2-n = &PostMessage(ToItself, 0x0102, 0x75f4, 1) # 痴
+key K2-o = &PostMessage(ToItself, 0x0102, 0x640d, 1) # 損
+key K2-p = &PostMessage(ToItself, 0x0102, 0x91c8, 1) # 釈
+key K2-u = &PostMessage(ToItself, 0x0102, 0x899a, 1) # 覚
+key K2-y = &PostMessage(ToItself, 0x0102, 0x8aa0, 1) # 誠
+
+keymap TUT-Code-x-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x722a, 1) # 爪
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x810a, 1) # 脊
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x7a00, 1) # 稀
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x901d, 1) # 逝
+key K2-h = &PostMessage(ToItself, 0x0102, 0x9177, 1) # 酷
+key K2-i = &PostMessage(ToItself, 0x0102, 0x8a93, 1) # 誓
+key K2-j = &PostMessage(ToItself, 0x0102, 0x96a0, 1) # 隠
+key K2-k = &PostMessage(ToItself, 0x0102, 0x8ce2, 1) # 賢
+key K2-l = &PostMessage(ToItself, 0x0102, 0x6065, 1) # 恥
+key K2-m = &PostMessage(ToItself, 0x0102, 0x7fa8, 1) # 羨
+key K2-n = &PostMessage(ToItself, 0x0102, 0x87fb, 1) # 蟻
+key K2-o = &PostMessage(ToItself, 0x0102, 0x5039, 1) # 倹
+key K2-p = &PostMessage(ToItself, 0x0102, 0x7aaa, 1) # 窪
+key K2-u = &PostMessage(ToItself, 0x0102, 0x9ab8, 1) # 骸
+key K2-y = &PostMessage(ToItself, 0x0102, 0x673d, 1) # 朽
+
+keymap TUT-Code-y-y
+key K2-a = &PostMessage(ToItself, 0x0102, 0x7a1a, 1) # 稚
+key K2-b = &PostMessage(ToItself, 0x0102, 0x819a, 1) # 膚
+key K2-c = &PostMessage(ToItself, 0x0102, 0x99c4, 1) # 駄
+key K2-d = &PostMessage(ToItself, 0x0102, 0x7fa4, 1) # 群
+key K2-e = &PostMessage(ToItself, 0x0102, 0x690d, 1) # 植
+key K2-f = &PostMessage(ToItself, 0x0102, 0x5426, 1) # 否
+key K2-g = &PostMessage(ToItself, 0x0102, 0x8377, 1) # 荷
+key K2-q = &PostMessage(ToItself, 0x0102, 0x7384, 1) # 玄
+key K2-r = &PostMessage(ToItself, 0x0102, 0x679d, 1) # 枝
+key K2-s = &PostMessage(ToItself, 0x0102, 0x9676, 1) # 陶
+key K2-t = &PostMessage(ToItself, 0x0102, 0x6697, 1) # 暗
+key K2-v = &PostMessage(ToItself, 0x0102, 0x93ae, 1) # 鎮
+key K2-w = &PostMessage(ToItself, 0x0102, 0x6c37, 1) # 氷
+key K2-x = &PostMessage(ToItself, 0x0102, 0x64ec, 1) # 擬
+key K2-z = &PostMessage(ToItself, 0x0102, 0x6a58, 1) # 橘
+
+keymap TUT-Code-z-t
+key K2-Comma = &PostMessage(ToItself, 0x0102, 0x5c16, 1) # 尖
+key K2-Period = &PostMessage(ToItself, 0x0102, 0x8305, 1) # 茅
+key K2-Slash = &PostMessage(ToItself, 0x0102, 0x6f15, 1) # 漕
+key K2-Semicolon = &PostMessage(ToItself, 0x0102, 0x9784, 1) # 鞄
+key K2-h = &PostMessage(ToItself, 0x0102, 0x52c5, 1) # 勅
+key K2-i = &PostMessage(ToItself, 0x0102, 0x5b9c, 1) # 宜
+key K2-j = &PostMessage(ToItself, 0x0102, 0x971c, 1) # 霜
+key K2-k = &PostMessage(ToItself, 0x0102, 0x69fd, 1) # 槽
+key K2-l = &PostMessage(ToItself, 0x0102, 0x7c98, 1) # 粘
+key K2-m = &PostMessage(ToItself, 0x0102, 0x5036, 1) # 倶
+key K2-n = &PostMessage(ToItself, 0x0102, 0x515c, 1) # 兜
+key K2-o = &PostMessage(ToItself, 0x0102, 0x755d, 1) # 畝
+key K2-p = &PostMessage(ToItself, 0x0102, 0x83ab, 1) # 莫
+key K2-u = &PostMessage(ToItself, 0x0102, 0x9ac4, 1) # 髄
+key K2-y = &PostMessage(ToItself, 0x0102, 0x4ea5, 1) # 亥
+
