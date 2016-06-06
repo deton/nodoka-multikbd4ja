@@ -1,4 +1,4 @@
-keymap TUT-Code-Comma-h
+keymap tutcode-Comma-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x6276, 1) # 扶
 key K2-b = &PostMessage(ToItself, 0x0102, 0x7554, 1) # 畔
 key K2-c = &PostMessage(ToItself, 0x0102, 0x58ca, 1) # 壊
@@ -15,7 +15,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x6bbf, 1) # 殿
 key K2-x = &PostMessage(ToItself, 0x0102, 0x55a7, 1) # 喧
 key K2-z = &PostMessage(ToItself, 0x0102, 0x6bbb, 1) # 殻
 
-keymap TUT-Code-Period-h
+keymap tutcode-Period-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x540f, 1) # 吏
 key K2-b = &PostMessage(ToItself, 0x0102, 0x9262, 1) # 鉢
 key K2-c = &PostMessage(ToItself, 0x0102, 0x9811, 1) # 頑
@@ -32,7 +32,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x865c, 1) # 虜
 key K2-x = &PostMessage(ToItself, 0x0102, 0x82af, 1) # 芯
 key K2-z = &PostMessage(ToItself, 0x0102, 0x8cce, 1) # 賎
 
-keymap TUT-Code-Slash-h
+keymap tutcode-Slash-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x6216, 1) # 或
 key K2-b = &PostMessage(ToItself, 0x0102, 0x54bd, 1) # 咽
 key K2-c = &PostMessage(ToItself, 0x0102, 0x4e14, 1) # 且
@@ -49,7 +49,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x5824, 1) # 堤
 key K2-x = &PostMessage(ToItself, 0x0102, 0x929a, 1) # 銚
 key K2-z = &PostMessage(ToItself, 0x0102, 0x918d, 1) # 醍
 
-keymap TUT-Code-Semicolon-h
+keymap tutcode-Semicolon-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x9810, 1) # 預
 key K2-b = &PostMessage(ToItself, 0x0102, 0x4e08, 1) # 丈
 key K2-c = &PostMessage(ToItself, 0x0102, 0x786c, 1) # 硬
@@ -66,7 +66,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x846c, 1) # 葬
 key K2-x = &PostMessage(ToItself, 0x0102, 0x9162, 1) # 酢
 key K2-z = &PostMessage(ToItself, 0x0102, 0x6f38, 1) # 漸
 
-keymap TUT-Code-a-g
+keymap tutcode-a-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x596a, 1) # 奪
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x6ecb, 1) # 滋
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x611a, 1) # 愚
@@ -83,7 +83,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x6dfb, 1) # 添
 key K2-u = &PostMessage(ToItself, 0x0102, 0x75db, 1) # 痛
 key K2-y = &PostMessage(ToItself, 0x0102, 0x7d0d, 1) # 納
 
-keymap TUT-Code-b-g
+keymap tutcode-b-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x5e25, 1) # 帥
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x5e4c, 1) # 幌
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x71d0, 1) # 燐
@@ -100,7 +100,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x8a60, 1) # 詠
 key K2-u = &PostMessage(ToItself, 0x0102, 0x6069, 1) # 恩
 key K2-y = &PostMessage(ToItself, 0x0102, 0x5974, 1) # 奴
 
-keymap TUT-Code-c-g
+keymap tutcode-c-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x9e97, 1) # 麗
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x8017, 1) # 耗
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x51f9, 1) # 凹
@@ -117,7 +117,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x6597, 1) # 斗
 key K2-u = &PostMessage(ToItself, 0x0102, 0x4fca, 1) # 俊
 key K2-y = &PostMessage(ToItself, 0x0102, 0x6d69, 1) # 浩
 
-keymap TUT-Code-d-g
+keymap tutcode-d-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x4e73, 1) # 乳
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x4ea1, 1) # 亡
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x63a7, 1) # 控
@@ -134,7 +134,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x5e61, 1) # 幡
 key K2-u = &PostMessage(ToItself, 0x0102, 0x5468, 1) # 周
 key K2-y = &PostMessage(ToItself, 0x0102, 0x5965, 1) # 奥
 
-keymap TUT-Code-e-g
+keymap tutcode-e-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x7db1, 1) # 綱
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x80c3, 1) # 胃
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x5504, 1) # 唄
@@ -151,7 +151,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x5b97, 1) # 宗
 key K2-u = &PostMessage(ToItself, 0x0102, 0x7e3e, 1) # 績
 key K2-y = &PostMessage(ToItself, 0x0102, 0x70ad, 1) # 炭
 
-keymap TUT-Code-f-g
+keymap tutcode-f-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x770b, 1) # 看
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x6575, 1) # 敵
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x925b, 1) # 鉛
@@ -168,7 +168,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x9707, 1) # 震
 key K2-u = &PostMessage(ToItself, 0x0102, 0x8352, 1) # 荒
 key K2-y = &PostMessage(ToItself, 0x0102, 0x53c8, 1) # 又
 
-keymap TUT-Code-g-g
+keymap tutcode-g-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x8170, 1) # 腰
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x51e1, 1) # 凡
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x61f2, 1) # 懲
@@ -185,7 +185,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x706f, 1) # 灯
 key K2-u = &PostMessage(ToItself, 0x0102, 0x9320, 1) # 錠
 key K2-y = &PostMessage(ToItself, 0x0102, 0x7b46, 1) # 筆
 
-keymap TUT-Code-h-h
+keymap tutcode-h-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x517c, 1) # 兼
 key K2-b = &PostMessage(ToItself, 0x0102, 0x62bd, 1) # 抽
 key K2-c = &PostMessage(ToItself, 0x0102, 0x8102, 1) # 脂
@@ -202,7 +202,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x5c31, 1) # 就
 key K2-x = &PostMessage(ToItself, 0x0102, 0x68b6, 1) # 梶
 key K2-z = &PostMessage(ToItself, 0x0102, 0x80ce, 1) # 胎
 
-keymap TUT-Code-i-h
+keymap tutcode-i-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x5237, 1) # 刷
 key K2-b = &PostMessage(ToItself, 0x0102, 0x96c5, 1) # 雅
 key K2-c = &PostMessage(ToItself, 0x0102, 0x9003, 1) # 逃
@@ -219,7 +219,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x4f59, 1) # 余
 key K2-x = &PostMessage(ToItself, 0x0102, 0x4ead, 1) # 亭
 key K2-z = &PostMessage(ToItself, 0x0102, 0x6291, 1) # 抑
 
-keymap TUT-Code-j-h
+keymap tutcode-j-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x56e0, 1) # 因
 key K2-b = &PostMessage(ToItself, 0x0102, 0x8ce6, 1) # 賦
 key K2-c = &PostMessage(ToItself, 0x0102, 0x5100, 1) # 儀
@@ -236,7 +236,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x7236, 1) # 父
 key K2-x = &PostMessage(ToItself, 0x0102, 0x81f3, 1) # 至
 key K2-z = &PostMessage(ToItself, 0x0102, 0x5c0a, 1) # 尊
 
-keymap TUT-Code-k-h
+keymap tutcode-k-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x7b4b, 1) # 筋
 key K2-b = &PostMessage(ToItself, 0x0102, 0x81f4, 1) # 致
 key K2-c = &PostMessage(ToItself, 0x0102, 0x55ab, 1) # 喫
@@ -253,7 +253,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x8b21, 1) # 謡
 key K2-x = &PostMessage(ToItself, 0x0102, 0x5b99, 1) # 宙
 key K2-z = &PostMessage(ToItself, 0x0102, 0x96f6, 1) # 零
 
-keymap TUT-Code-l-h
+keymap tutcode-l-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x6e7e, 1) # 湾
 key K2-b = &PostMessage(ToItself, 0x0102, 0x59c9, 1) # 姉
 key K2-c = &PostMessage(ToItself, 0x0102, 0x8b1d, 1) # 謝
@@ -270,7 +270,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x707d, 1) # 災
 key K2-x = &PostMessage(ToItself, 0x0102, 0x7ce7, 1) # 糧
 key K2-z = &PostMessage(ToItself, 0x0102, 0x8d74, 1) # 赴
 
-keymap TUT-Code-m-h
+keymap tutcode-m-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x5203, 1) # 刃
 key K2-b = &PostMessage(ToItself, 0x0102, 0x9675, 1) # 陵
 key K2-c = &PostMessage(ToItself, 0x0102, 0x75e2, 1) # 痢
@@ -287,7 +287,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x6368, 1) # 捨
 key K2-x = &PostMessage(ToItself, 0x0102, 0x4f10, 1) # 伐
 key K2-z = &PostMessage(ToItself, 0x0102, 0x7f85, 1) # 羅
 
-keymap TUT-Code-n-h
+keymap tutcode-n-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x5076, 1) # 偶
 key K2-b = &PostMessage(ToItself, 0x0102, 0x5840, 1) # 塀
 key K2-c = &PostMessage(ToItself, 0x0102, 0x7d5e, 1) # 絞
@@ -304,7 +304,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x64c1, 1) # 擁
 key K2-x = &PostMessage(ToItself, 0x0102, 0x73a9, 1) # 玩
 key K2-z = &PostMessage(ToItself, 0x0102, 0x5366, 1) # 卦
 
-keymap TUT-Code-o-h
+keymap tutcode-o-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x68d2, 1) # 棒
 key K2-b = &PostMessage(ToItself, 0x0102, 0x50e7, 1) # 僧
 key K2-c = &PostMessage(ToItself, 0x0102, 0x5b6b, 1) # 孫
@@ -321,7 +321,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x5c01, 1) # 封
 key K2-x = &PostMessage(ToItself, 0x0102, 0x6daf, 1) # 涯
 key K2-z = &PostMessage(ToItself, 0x0102, 0x5f14, 1) # 弔
 
-keymap TUT-Code-p-h
+keymap tutcode-p-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x89e6, 1) # 触
 key K2-b = &PostMessage(ToItself, 0x0102, 0x673a, 1) # 机
 key K2-c = &PostMessage(ToItself, 0x0102, 0x9591, 1) # 閑
@@ -338,7 +338,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x4fc3, 1) # 促
 key K2-x = &PostMessage(ToItself, 0x0102, 0x5e63, 1) # 幣
 key K2-z = &PostMessage(ToItself, 0x0102, 0x62d0, 1) # 拐
 
-keymap TUT-Code-q-g
+keymap tutcode-q-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x6016, 1) # 怖
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x990c, 1) # 餌
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x96bc, 1) # 隼
@@ -355,7 +355,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x5320, 1) # 匠
 key K2-u = &PostMessage(ToItself, 0x0102, 0x9326, 1) # 錦
 key K2-y = &PostMessage(ToItself, 0x0102, 0x54f2, 1) # 哲
 
-keymap TUT-Code-r-g
+keymap tutcode-r-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x8d08, 1) # 贈
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x8056, 1) # 聖
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x7f70, 1) # 罰
@@ -372,7 +372,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x9b3c, 1) # 鬼
 key K2-u = &PostMessage(ToItself, 0x0102, 0x663c, 1) # 昼
 key K2-y = &PostMessage(ToItself, 0x0102, 0x7a32, 1) # 稲
 
-keymap TUT-Code-s-g
+keymap tutcode-s-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x9732, 1) # 露
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x58c7, 1) # 壇
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x502b, 1) # 倫
@@ -389,7 +389,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x5374, 1) # 却
 key K2-u = &PostMessage(ToItself, 0x0102, 0x9806, 1) # 順
 key K2-y = &PostMessage(ToItself, 0x0102, 0x90f7, 1) # 郷
 
-keymap TUT-Code-t-g
+keymap tutcode-t-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x7372, 1) # 獲
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x50d5, 1) # 僕
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x81e5, 1) # 臥
@@ -406,7 +406,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x6163, 1) # 慣
 key K2-u = &PostMessage(ToItself, 0x0102, 0x718a, 1) # 熊
 key K2-y = &PostMessage(ToItself, 0x0102, 0x70ba, 1) # 為
 
-keymap TUT-Code-u-h
+keymap tutcode-u-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x963f, 1) # 阿
 key K2-b = &PostMessage(ToItself, 0x0102, 0x9a5a, 1) # 驚
 key K2-c = &PostMessage(ToItself, 0x0102, 0x6392, 1) # 排
@@ -423,7 +423,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x511f, 1) # 償
 key K2-x = &PostMessage(ToItself, 0x0102, 0x62d3, 1) # 拓
 key K2-z = &PostMessage(ToItself, 0x0102, 0x7272, 1) # 牲
 
-keymap TUT-Code-v-g
+keymap tutcode-v-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x62f3, 1) # 拳
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x4fae, 1) # 侮
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x7950, 1) # 祐
@@ -440,7 +440,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x5a92, 1) # 媒
 key K2-u = &PostMessage(ToItself, 0x0102, 0x5951, 1) # 契
 key K2-y = &PostMessage(ToItself, 0x0102, 0x6db2, 1) # 液
 
-keymap TUT-Code-w-g
+keymap tutcode-w-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x57cb, 1) # 埋
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x7a4f, 1) # 穏
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x5098, 1) # 傘
@@ -457,7 +457,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x6df5, 1) # 淵
 key K2-u = &PostMessage(ToItself, 0x0102, 0x7f6a, 1) # 罪
 key K2-y = &PostMessage(ToItself, 0x0102, 0x5f3e, 1) # 弾
 
-keymap TUT-Code-x-g
+keymap tutcode-x-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x5243, 1) # 剃
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x91e7, 1) # 釧
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x69cd, 1) # 槍
@@ -474,7 +474,7 @@ key K2-p = &PostMessage(ToItself, 0x0102, 0x5be7, 1) # 寧
 key K2-u = &PostMessage(ToItself, 0x0102, 0x809d, 1) # 肝
 key K2-y = &PostMessage(ToItself, 0x0102, 0x582a, 1) # 堪
 
-keymap TUT-Code-y-h
+keymap tutcode-y-h
 key K2-a = &PostMessage(ToItself, 0x0102, 0x6df3, 1) # 淳
 key K2-b = &PostMessage(ToItself, 0x0102, 0x7089, 1) # 炉
 key K2-c = &PostMessage(ToItself, 0x0102, 0x57a3, 1) # 垣
@@ -491,7 +491,7 @@ key K2-w = &PostMessage(ToItself, 0x0102, 0x6b8a, 1) # 殊
 key K2-x = &PostMessage(ToItself, 0x0102, 0x5049, 1) # 偉
 key K2-z = &PostMessage(ToItself, 0x0102, 0x8fc5, 1) # 迅
 
-keymap TUT-Code-z-g
+keymap tutcode-z-g
 key K2-Comma = &PostMessage(ToItself, 0x0102, 0x937e, 1) # 鍾
 key K2-Period = &PostMessage(ToItself, 0x0102, 0x62f6, 1) # 拶
 key K2-Slash = &PostMessage(ToItself, 0x0102, 0x6a0b, 1) # 樋

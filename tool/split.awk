@@ -3,22 +3,22 @@ BEGIN {
 	DEFOUTFILE = "tut2.nodoka"
 	outfile = DEFOUTFILE
 }
-/^keymap TUT-Code-[^-]+-[ty]$/ {
+/^keymap tutcode-[^-]+-[ty]$/ {
 	outfile = "tut3ty.nodoka"
 	print >>outfile
 	next
 }
-/^keymap TUT-Code-[^-]+-[gh]$/ {
+/^keymap tutcode-[^-]+-[gh]$/ {
 	outfile = "tut3gh.nodoka"
 	print >>outfile
 	next
 }
-/^keymap TUT-Code-[^-]+-[vm]$/ {
+/^keymap tutcode-[^-]+-[vm]$/ {
 	outfile = "tut3vm.nodoka"
 	print >>outfile
 	next
 }
-/^keymap TUT-Code-[^-]+-[bn]$/ {
+/^keymap tutcode-[^-]+-[bn]$/ {
 	outfile = "tut3bn.nodoka"
 	print >>outfile
 	next

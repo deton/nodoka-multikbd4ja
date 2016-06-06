@@ -5,7 +5,7 @@ import sys
 if len(sys.argv) > 1:
     keymapname = sys.argv[1]
 else:
-    keymapname = 'TUT-Code'
+    keymapname = 'tutcode'
 
 NODOKAKEY = {
     ';': 'Semicolon', ',': 'Comma', '.': 'Period', '/': 'Slash', ' ': 'Space',

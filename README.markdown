@@ -33,7 +33,7 @@ def option FakeUp = enable 20 84
 
 ```
 include "tutcode.nodoka"
-window MS-NotePad /:Notepad:Edit$/ : TUT-Code # メモ帳で試す
+window MS-NotePad /:Notepad:Edit$/ : tutcode # メモ帳で試す
 ```
 
 ## ファイルリスト
