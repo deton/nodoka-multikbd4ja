@@ -53,9 +53,9 @@ def output(keymaps):
                 nodokakey = mkkeyname(seqlast)
                 kanji = keymaps[seqlen][seqhead][seqlast]
                 if kanji[0] == '\t': # 他のkeymapへ
-                    print "key {} = &Prefix({})".format(nodokakey, mkmapname(kanji[1:]))
+                    print " key {} = &Prefix({})".format(nodokakey, mkmapname(kanji[1:]))
                 else:
-                    print "key {} = &PostMessage(ToItself, 0x0102, {:#x}, 1) # {}".format(nodokakey, ord(kanji.decode('utf-8')), kanji)
+                    print " key {} = &PostMessage(ToItself, 0x0102, {:#x}, 1) # {}".format(nodokakey, ord(kanji.decode('utf-8')), kanji)
 
 def printkeymap(seq):
     if len(seq) == 0:
