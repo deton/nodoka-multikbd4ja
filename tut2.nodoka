@@ -1197,7 +1197,6 @@ key K2-y = &PostMessage(ToItself, 0x0102, 0x843d, 1) # 落
 key K2-z = &PostMessage(ToItself, 0x0102, 0x96d1, 1) # 雑
 
 keymap tutcode : Global
-key K2-Space = &PostMessage(ToItself, 0x0102, 0x20, 1) #  
 key K2-Comma = &Prefix(tutcode-Comma)
 key K2-Period = &Prefix(tutcode-Period)
 key K2-Slash = &Prefix(tutcode-Slash)
