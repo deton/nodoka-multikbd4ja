@@ -65,8 +65,13 @@ window MS-NotePad /:Notepad:Edit$/ : tutcode # メモ帳で試す
 * tut2.nodoka, tut3ty.nodoka, tut3gh.nodoka, tut3vm.nodoka, tut3bn.nodoka:
   tutcode.nodokaからincludeするファイル。
   (下記拡張案のブロックごとのキーボード追加をしやすいようにファイルを分割)
-* tcode.nodoka: T-Code。dot.nodokaからのinclude用
-* tool/mk4nodoka.py: 漢字直接入力用設定ファイル生成用スクリプト(Python2用)
+* tcode.nodoka: T-Code
+* tool/
+	* mk4nodoka.py: 漢字直接入力用設定ファイル生成用スクリプト(Python2用)
+	* Makefile: TUT-Code用nodokaファイル生成用Makefile
+	* split.awk: tut3??.nodokaファイル等に分割するためのスクリプト
+	* tutcode.2, tutcode.3: TUT-Code表
+	* tcode: T-Code表
 
 ## 課題、制限
 * キーボードを持ち替えるよりも、普通にモード切り替えの方が早い気もします。
@@ -75,6 +80,7 @@ window MS-NotePad /:Notepad:Edit$/ : tutcode # メモ帳で試す
 * 漢字直接入力での部首合成変換、交ぜ書き変換未対応
 
 ## 拡張案
+* 1打鍵かな用キーボード、1打鍵カタカナ用キーボード、2打鍵以上漢字直接入力用キーボード、1打鍵英字キーボードの、合計4個のキーボードを使う
 * TUT-Codeの3打鍵のそれぞれのブロック用にキーボードを用意して、2打鍵化。
   ([ワイド版ストローク表の各ブロックに相当](http://www1.interq.or.jp/~deton/tutcode/#tuttable))
   ただし、そうすると、2打鍵用キーボード1個、3打鍵用キーボード4個、
