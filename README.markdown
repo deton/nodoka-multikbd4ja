@@ -35,12 +35,13 @@
 [&SetImeString()](http://www.appletkan.com/nodoka-doc/CUSTOMIZE-ja.html#function_SetImeString)を使うと行けるかも?)
 
 ## セットアップ
-IMEonK2.nodokaやtutcode.nodokaでは、キーボードK2を日本語入力用に使う形になっています。
-K2の設定方法は
+IMEonK2.nodokaやtutcode.nodokaでは、
+キーボードK2を日本語入力用に、キーボードK1を英字用に使う形になっています。
+K1,K2の設定方法は
 [のどかのドキュメント](http://www.appletkan.com/nodoka-doc/CUSTOMIZE-ja.html#def_option_UnitID)を参照してください。
 
 [複数キーボード認識タイミングの変更設定](http://www.appletkan.com/nodoka-doc/CUSTOMIZE-ja.html#def_option_FakeUp)
-をしないとK2モディファイヤが付かないようなので、
+をしないとK1やK2モディファイヤが付かないようなので、
 [自分用の設定ファイルdot.nodoka](http://www.appletkan.com/nodoka-doc/MANUAL-ja.html#dotnodoka)に以下を追加してください。
 
 ```
