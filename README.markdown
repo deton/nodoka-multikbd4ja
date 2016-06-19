@@ -10,6 +10,8 @@
 * 日本語を入力したい時は、日本語入力専用キーボードで打つ
 * 英字を入力したい時は、それ以外(英字)用キーボードで打つ
 
+(なお、2つ目のキーボードでなく、[テンキーを日本語入力に使う方法](https://github.com/deton/nodoka-multikbd4ja/tree/master/tenkey4ja)の試作もあります)。
+
 利点:
 
 * モードを意識しないでよくなる
@@ -90,6 +92,8 @@ window MS-NotePad /:Notepad:Edit$/ : tutcode # メモ帳で試す
   3打鍵用キーボードを1個追加すれば2打鍵化可能。
 
 ## 参考
+* [テンキーを日本語入力専用にする](https://github.com/deton/nodoka-multikbd4ja/tree/master/tenkey4ja)。
+  2つキーボードをつながないで、テンキーを日本語入力に使用
 * [複数キーボードを区別する方法 - applet@Hatena](http://d.hatena.ne.jp/applet_at_h/20100527/1274966606)。RawInput
 * [「窓使いの憂鬱」を使って T-Code 入力してみる](http://homepage3.nifty.com/songs/tcode/mayu/)。クリップボード使用
 * [Google 日本語入力キーボード ドラムセットバージョン](https://japan.googleblog.com/2010/04/google.html) (エイプリルフールネタですが)

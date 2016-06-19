@@ -1,0 +1,295 @@
+# テンキーを日本語入力専用にする
+#
+# 日本語入力のオン・オフのモード切り替え不要にするため、
+# テンキーは日本語入力専用に使い、それ以外は英字用に使うための設定です。
+#
+# CUT Key
+# http://www.cutkey.jp
+
+keymap cutkey-k-g-f-y
+ key *IC-Num7 = &SendText("ふゃ")
+ key *IC-Num9 = &SendText("ふゅ")
+ key *IC-Num5 = &SendText("ふょ")
+keymap cutkey-k-g-f
+ key *IC-Num7 = &SendText("ふぁ")
+ key *IC-Num8 = &SendText("ふぃ")
+ key *IC-Num9 = &SendText("ふ")
+ key *IC-Num4 = &SendText("ふぇ")
+ key *IC-Num5 = &SendText("ふぉ")
+ key *IC-Num6 = &Prefix(cutkey-k-g-f-y)
+keymap cutkey-k-g-y
+ key *IC-Num7 = &SendText("ぎゃ")
+ key *IC-Num9 = &SendText("ぎゅ")
+ key *IC-Num4 = &SendText("ぎぇ")
+ key *IC-Num5 = &SendText("ぎょ")
+keymap cutkey-k-g
+ key *IC-Num7 = &SendText("が")
+ key *IC-Num8 = &SendText("ぎ")
+ key *IC-Num9 = &SendText("ぐ")
+ key *IC-Num4 = &SendText("げ")
+ key *IC-Num5 = &SendText("ご")
+ key *IC-Num1 = &Prefix(cutkey-k-g-f)
+ key *IC-Num6 = &Prefix(cutkey-k-g-y)
+keymap cutkey-k-y
+ key *IC-Num7 = &SendText("きゃ")
+ key *IC-Num9 = &SendText("きゅ")
+ key *IC-Num4 = &SendText("きぇ")
+ key *IC-Num5 = &SendText("きょ")
+keymap cutkey-k
+ key *IC-Num7 = &SendText("か")
+ key *IC-Num8 = &SendText("き")
+ key *IC-Num9 = &SendText("く")
+ key *IC-Num4 = &SendText("け")
+ key *IC-Num5 = &SendText("こ")
+ key *IC-Num1 = &Prefix(cutkey-k-g)
+ key *IC-Num6 = &Prefix(cutkey-k-y)
+
+keymap cutkey-s-z-j
+ key *IC-Num7 = &SendText("じゃ")
+ key *IC-Num9 = &SendText("じゅ")
+ key *IC-Num4 = &SendText("じぇ")
+ key *IC-Num5 = &SendText("じょ")
+keymap cutkey-s-z-y
+ key *IC-Num7 = &SendText("じゃ")
+ key *IC-Num9 = &SendText("じゅ")
+ key *IC-Num4 = &SendText("じぇ")
+ key *IC-Num5 = &SendText("じょ")
+keymap cutkey-s-z
+ key *IC-Num7 = &SendText("ざ")
+ key *IC-Num8 = &SendText("じ")
+ key *IC-Num9 = &SendText("ず")
+ key *IC-Num4 = &SendText("ぜ")
+ key *IC-Num5 = &SendText("ぞ")
+ key *IC-Num2 = &Prefix(cutkey-s-z-j)
+ key *IC-Num6 = &Prefix(cutkey-s-z-y)
+keymap cutkey-s-y
+ key *IC-Num7 = &SendText("しゃ")
+ key *IC-Num9 = &SendText("しゅ")
+ key *IC-Num4 = &SendText("しぇ")
+ key *IC-Num5 = &SendText("しょ")
+keymap cutkey-s
+ key *IC-Num7 = &SendText("さ")
+ key *IC-Num8 = &SendText("し")
+ key *IC-Num9 = &SendText("す")
+ key *IC-Num4 = &SendText("せ")
+ key *IC-Num5 = &SendText("そ")
+ key *IC-Num2 = &Prefix(cutkey-s-z)
+ key *IC-Num6 = &Prefix(cutkey-s-y)
+
+keymap cutkey-t-d-v-y
+ key *IC-Num7 = &SendText("ヴゃ")
+ key *IC-Num9 = &SendText("ヴゅ")
+ key *IC-Num4 = &SendText("ヴぇ")
+ key *IC-Num5 = &SendText("ヴょ")
+keymap cutkey-t-d-v
+ key *IC-Num7 = &SendText("ヴぁ")
+ key *IC-Num8 = &SendText("ヴぃ")
+ key *IC-Num9 = &SendText("ヴ")
+ key *IC-Num4 = &SendText("ヴぇ")
+ key *IC-Num5 = &SendText("ヴぉ")
+ key *IC-Num6 = &Prefix(cutkey-t-d-v-y)
+keymap cutkey-t-d-y
+ key *IC-Num7 = &SendText("ぢゃ")
+ key *IC-Num9 = &SendText("ぢゅ")
+ key *IC-Num4 = &SendText("ぢぇ")
+ key *IC-Num5 = &SendText("ぢょ")
+keymap cutkey-t-d
+ key *IC-Num7 = &SendText("だ")
+ key *IC-Num8 = &SendText("ぢ")
+ key *IC-Num9 = &SendText("づ")
+ key *IC-Num4 = &SendText("で")
+ key *IC-Num5 = &SendText("ど")
+ key *IC-Num3 = &Prefix(cutkey-t-d-v)
+ key *IC-Num6 = &Prefix(cutkey-t-d-y)
+keymap cutkey-t-y
+ key *IC-Num7 = &SendText("ちゃ")
+ key *IC-Num9 = &SendText("ちゅ")
+ key *IC-Num4 = &SendText("ちぇ")
+ key *IC-Num5 = &SendText("ちょ")
+keymap cutkey-t
+ key *IC-Num7 = &SendText("た")
+ key *IC-Num8 = &SendText("ち")
+ key *IC-Num9 = &SendText("つ")
+ key *IC-Num4 = &SendText("て")
+ key *IC-Num5 = &SendText("と")
+ key *IC-Num3 = &Prefix(cutkey-t-d)
+ key *IC-Num6 = &Prefix(cutkey-t-y)
+ key *IC-NumPlus = &SendText("っ") # 本来は「え」の2回押し?
+
+keymap cutkey-h-b-p-y
+ key *IC-Num7 = &SendText("ぴゃ")
+ key *IC-Num9 = &SendText("ぴゅ")
+ key *IC-Num4 = &SendText("ぴぇ")
+ key *IC-Num5 = &SendText("ぴょ")
+keymap cutkey-h-b-p
+ key *IC-Num7 = &SendText("ぱ")
+ key *IC-Num8 = &SendText("ぴ")
+ key *IC-Num9 = &SendText("ぷ")
+ key *IC-Num4 = &SendText("ぺ")
+ key *IC-Num5 = &SendText("ぽ")
+ key *IC-Num6 = &Prefix(cutkey-h-b-p-y)
+keymap cutkey-h-b-y
+ key *IC-Num7 = &SendText("びゃ")
+ key *IC-Num9 = &SendText("びゅ")
+ key *IC-Num4 = &SendText("びぇ")
+ key *IC-Num5 = &SendText("びょ")
+keymap cutkey-h-b
+ key *IC-Num7 = &SendText("ば")
+ key *IC-Num8 = &SendText("び")
+ key *IC-Num9 = &SendText("ぶ")
+ key *IC-Num4 = &SendText("べ")
+ key *IC-Num5 = &SendText("ぼ")
+ key *IC-NumPeriod = &Prefix(cutkey-h-b-p)
+ key *IC-Num6 = &Prefix(cutkey-h-b-y)
+keymap cutkey-h-y
+ key *IC-Num7 = &SendText("ひゃ")
+ key *IC-Num9 = &SendText("ひゅ")
+ key *IC-Num4 = &SendText("ひぇ")
+ key *IC-Num5 = &SendText("ひょ")
+keymap cutkey-h
+ key *IC-Num7 = &SendText("は")
+ key *IC-Num8 = &SendText("ひ")
+ key *IC-Num9 = &SendText("ふ")
+ key *IC-Num4 = &SendText("へ")
+ key *IC-Num5 = &SendText("ほ")
+ key *IC-NumPeriod = &Prefix(cutkey-h-b)
+ key *IC-Num6 = &Prefix(cutkey-h-y)
+
+keymap cutkey-r-m-l
+ key *IC-Num7 = &SendText("ぁ")
+ key *IC-Num8 = &SendText("ぃ")
+ key *IC-Num9 = &SendText("ぅ")
+ key *IC-Num4 = &SendText("ぇ")
+ key *IC-Num5 = &SendText("ぉ")
+keymap cutkey-r-m-y
+ key *IC-Num7 = &SendText("みゃ")
+ key *IC-Num9 = &SendText("みゅ")
+ key *IC-Num4 = &SendText("みぇ")
+ key *IC-Num5 = &SendText("みょ")
+keymap cutkey-r-m
+ key *IC-Num7 = &SendText("ま")
+ key *IC-Num8 = &SendText("み")
+ key *IC-Num9 = &SendText("む")
+ key *IC-Num4 = &SendText("め")
+ key *IC-Num5 = &SendText("も")
+ key *IC-NumPlus = &Prefix(cutkey-r-m-l)
+ key *IC-Num6 = &Prefix(cutkey-r-m-y)
+keymap cutkey-r-y
+ key *IC-Num7 = &SendText("りゃ")
+ key *IC-Num9 = &SendText("りゅ")
+ key *IC-Num4 = &SendText("りぇ")
+ key *IC-Num5 = &SendText("りょ")
+keymap cutkey-r
+ key *IC-Num7 = &SendText("ら")
+ key *IC-Num8 = &SendText("り")
+ key *IC-Num9 = &SendText("る")
+ key *IC-Num4 = &SendText("れ")
+ key *IC-Num5 = &SendText("ろ")
+ key *IC-NumPlus = &Prefix(cutkey-r-m)
+ key *IC-Num6 = &Prefix(cutkey-r-y)
+
+keymap cutkey-n-y
+ key *IC-Num7 = &SendText("にゃ")
+ key *IC-Num9 = &SendText("にゅ")
+ key *IC-Num4 = &SendText("にぇ")
+ key *IC-Num5 = &SendText("にょ")
+keymap cutkey-n
+ key *IC-Num7 = &SendText("な")
+ key *IC-Num8 = &SendText("に")
+ key *IC-Num9 = &SendText("ぬ")
+ key *IC-Num4 = &SendText("ね")
+ key *IC-Num5 = &SendText("の")
+ key *IC-Num1 = &SendText("ん") &Prefix(cutkey-k)
+ key *IC-Num2 = &SendText("ん") &Prefix(cutkey-s)
+ key *IC-Num3 = &SendText("ん") &Prefix(cutkey-t)
+ key *IC-Num6 = &Prefix(cutkey-n-y)
+ key *IC-Num0 = &SendText("ん")
+ key *IC-NumPeriod = &SendText("ん") &Prefix(cutkey-h)
+ key *IC-NumPlus = &SendText("ん") &Prefix(cutkey-r)
+
+keymap cutkey-y-w
+ key *IC-Num7 = &SendText("わ")
+ key *IC-Num5 = &SendText("を")
+keymap cutkey-y
+ key *IC-Num7 = &SendText("や")
+ key *IC-Num9 = &SendText("ゆ")
+ key *IC-Num4 = &SendText("いぇ")
+ key *IC-Num5 = &SendText("よ")
+ key *IC-Num6 = &Prefix(cutkey-y-w)
+
+#keymap cutkey : Global
+keymap Global
+ key *IC-Num7 = &SetImeStatus(on) &SendText("あ")
+ key *IC-Num8 = &SetImeStatus(on) &SendText("い")
+ key *IC-Num9 = &SetImeStatus(on) &SendText("う")
+ key *IC-Num4 = &SetImeStatus(on) &SendText("え")
+ key *IC-Num5 = &SetImeStatus(on) &SendText("お")
+ key *IC-Num6 = &SetImeStatus(on) &Prefix(cutkey-y)
+ key *IC-Num1 = &SetImeStatus(on) &Prefix(cutkey-k)
+ key *IC-Num2 = &SetImeStatus(on) &Prefix(cutkey-s)
+ key *IC-Num3 = &SetImeStatus(on) &Prefix(cutkey-t)
+ key *IC-Num0 = &SetImeStatus(on) &Prefix(cutkey-n)
+ key *IC-NumPeriod = &SetImeStatus(on) &Prefix(cutkey-h)
+ # 0の段に3つキーが無いので
+ key *IC-NumPlus = &SetImeStatus(on) &Prefix(cutkey-r)
+ key *IC-NumMinus = &SetImeStatus(on) &SendText("ー") # 本来は「あ」の2回押し?
+
+# テンキー以外を押した時に、IMEをオフにする
+key  IL-*IC-*S-D-A = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-B = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-C = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-D = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-E = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-F = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-G = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-H = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-I = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-J = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-K = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-L = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-M = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-N = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-O = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-P = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-Q = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-R = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-S = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-T = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-U = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-V = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-W = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-X = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-Y = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-Z = &SetImeStatus(off) &KeymapParent
+
+key  IL-*IC-*S-D-_1 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_2 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_3 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_4 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_5 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_6 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_7 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_8 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_9 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-_0 = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-Minus = &SetImeStatus(off) &KeymapParent
+
+key  IL-*IC-*S-D-OpenBracket =  &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-CloseBracket = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-BackSlash = &SetImeStatus(off) &KeymapParent
+
+key  IL-*IC-*S-D-Semicolon = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-Comma =  &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-Period = &SetImeStatus(off) &KeymapParent
+key  IL-*IC-*S-D-Slash =  &SetImeStatus(off) &KeymapParent
+
+if ( !USE104 )
+ key  IL-*IC-*S-D-Caret  = &SetImeStatus(off) &KeymapParent
+ key  IL-*IC-*S-D-Yen    = &SetImeStatus(off) &KeymapParent
+ key  IL-*IC-*S-D-Atmark = &SetImeStatus(off) &KeymapParent
+ key  IL-*IC-*S-D-Colon  = &SetImeStatus(off) &KeymapParent
+else
+ key  IL-*IC-*S-D-Equal = &SetImeStatus(off) &KeymapParent
+ key  IL-*IC-*S-D-Quote = &SetImeStatus(off) &KeymapParent
+ key  IL-*IC-*S-D-BackQuote = &SetImeStatus(off) &KeymapParent
+endif
