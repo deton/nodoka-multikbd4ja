@@ -6,229 +6,112 @@
 # CUT Key
 # http://www.cutkey.jp
 
-keymap cutkey-k-g-f-y
- key *IC-Num7 = &SendText("ふゃ")
- key *IC-Num9 = &SendText("ふゅ")
- key *IC-Num5 = &SendText("ふょ")
-keymap cutkey-k-g-f
- key *IC-Num7 = &SendText("ふぁ")
- key *IC-Num8 = &SendText("ふぃ")
- key *IC-Num9 = &SendText("ふ")
- key *IC-Num4 = &SendText("ふぇ")
- key *IC-Num5 = &SendText("ふぉ")
- key *IC-Num6 = &Prefix(cutkey-k-g-f-y)
-keymap cutkey-k-g-y
- key *IC-Num7 = &SendText("ぎゃ")
- key *IC-Num9 = &SendText("ぎゅ")
- key *IC-Num4 = &SendText("ぎぇ")
- key *IC-Num5 = &SendText("ぎょ")
 keymap cutkey-k-g
- key *IC-Num7 = &SendText("が")
- key *IC-Num8 = &SendText("ぎ")
- key *IC-Num9 = &SendText("ぐ")
- key *IC-Num4 = &SendText("げ")
- key *IC-Num5 = &SendText("ご")
- key *IC-Num1 = &Prefix(cutkey-k-g-f)
- key *IC-Num6 = &Prefix(cutkey-k-g-y)
-keymap cutkey-k-y
- key *IC-Num7 = &SendText("きゃ")
- key *IC-Num9 = &SendText("きゅ")
- key *IC-Num4 = &SendText("きぇ")
- key *IC-Num5 = &SendText("きょ")
+ key *IC-Num7 = G A
+ key *IC-Num8 = G I
+ key *IC-Num9 = G U
+ key *IC-Num4 = G E
+ key *IC-Num5 = G O
+ key *IC-Num6 = G Y
+ key *IC-Num1 = F
 keymap cutkey-k
- key *IC-Num7 = &SendText("か")
- key *IC-Num8 = &SendText("き")
- key *IC-Num9 = &SendText("く")
- key *IC-Num4 = &SendText("け")
- key *IC-Num5 = &SendText("こ")
+ key *IC-Num7 = K A
+ key *IC-Num8 = K I
+ key *IC-Num9 = K U
+ key *IC-Num4 = K E
+ key *IC-Num5 = K O
+ key *IC-Num6 = K Y
  key *IC-Num1 = &Prefix(cutkey-k-g)
- key *IC-Num6 = &Prefix(cutkey-k-y)
 
-keymap cutkey-s-z-j
- key *IC-Num7 = &SendText("じゃ")
- key *IC-Num9 = &SendText("じゅ")
- key *IC-Num4 = &SendText("じぇ")
- key *IC-Num5 = &SendText("じょ")
-keymap cutkey-s-z-y
- key *IC-Num7 = &SendText("じゃ")
- key *IC-Num9 = &SendText("じゅ")
- key *IC-Num4 = &SendText("じぇ")
- key *IC-Num5 = &SendText("じょ")
 keymap cutkey-s-z
- key *IC-Num7 = &SendText("ざ")
- key *IC-Num8 = &SendText("じ")
- key *IC-Num9 = &SendText("ず")
- key *IC-Num4 = &SendText("ぜ")
- key *IC-Num5 = &SendText("ぞ")
- key *IC-Num2 = &Prefix(cutkey-s-z-j)
- key *IC-Num6 = &Prefix(cutkey-s-z-y)
-keymap cutkey-s-y
- key *IC-Num7 = &SendText("しゃ")
- key *IC-Num9 = &SendText("しゅ")
- key *IC-Num4 = &SendText("しぇ")
- key *IC-Num5 = &SendText("しょ")
+ key *IC-Num7 = Z A
+ key *IC-Num8 = Z I
+ key *IC-Num9 = Z U
+ key *IC-Num4 = Z E
+ key *IC-Num5 = Z O
+ key *IC-Num6 = Z Y
+ key *IC-Num2 = J
 keymap cutkey-s
- key *IC-Num7 = &SendText("さ")
- key *IC-Num8 = &SendText("し")
- key *IC-Num9 = &SendText("す")
- key *IC-Num4 = &SendText("せ")
- key *IC-Num5 = &SendText("そ")
+ key *IC-Num7 = S A
+ key *IC-Num8 = S I
+ key *IC-Num9 = S U
+ key *IC-Num4 = S E
+ key *IC-Num5 = S O
+ key *IC-Num6 = S Y
  key *IC-Num2 = &Prefix(cutkey-s-z)
- key *IC-Num6 = &Prefix(cutkey-s-y)
 
-keymap cutkey-t-d-v-y
- key *IC-Num7 = &SendText("ヴゃ")
- key *IC-Num9 = &SendText("ヴゅ")
- key *IC-Num4 = &SendText("ヴぇ")
- key *IC-Num5 = &SendText("ヴょ")
-keymap cutkey-t-d-v
- key *IC-Num7 = &SendText("ヴぁ")
- key *IC-Num8 = &SendText("ヴぃ")
- key *IC-Num9 = &SendText("ヴ")
- key *IC-Num4 = &SendText("ヴぇ")
- key *IC-Num5 = &SendText("ヴぉ")
- key *IC-Num6 = &Prefix(cutkey-t-d-v-y)
-keymap cutkey-t-d-y
- key *IC-Num7 = &SendText("ぢゃ")
- key *IC-Num9 = &SendText("ぢゅ")
- key *IC-Num4 = &SendText("ぢぇ")
- key *IC-Num5 = &SendText("ぢょ")
 keymap cutkey-t-d
- key *IC-Num7 = &SendText("だ")
- key *IC-Num8 = &SendText("ぢ")
- key *IC-Num9 = &SendText("づ")
- key *IC-Num4 = &SendText("で")
- key *IC-Num5 = &SendText("ど")
- key *IC-Num3 = &Prefix(cutkey-t-d-v)
- key *IC-Num6 = &Prefix(cutkey-t-d-y)
-keymap cutkey-t-y
- key *IC-Num7 = &SendText("ちゃ")
- key *IC-Num9 = &SendText("ちゅ")
- key *IC-Num4 = &SendText("ちぇ")
- key *IC-Num5 = &SendText("ちょ")
+ key *IC-Num7 = D A
+ key *IC-Num8 = D I
+ key *IC-Num9 = D U
+ key *IC-Num4 = D E
+ key *IC-Num5 = D O
+ key *IC-Num6 = D Y
+ key *IC-Num3 = V
 keymap cutkey-t
- key *IC-Num7 = &SendText("た")
- key *IC-Num8 = &SendText("ち")
- key *IC-Num9 = &SendText("つ")
- key *IC-Num4 = &SendText("て")
- key *IC-Num5 = &SendText("と")
+ key *IC-Num7 = T A
+ key *IC-Num8 = T I
+ key *IC-Num9 = T U
+ key *IC-Num4 = T E
+ key *IC-Num5 = T O
+ key *IC-Num6 = T Y
  key *IC-Num3 = &Prefix(cutkey-t-d)
- key *IC-Num6 = &Prefix(cutkey-t-y)
  key *IC-NumPlus = &SendText("っ") # 本来は「え」の2回押し?
 
-keymap cutkey-h-b-p-y
- key *IC-Num7 = &SendText("ぴゃ")
- key *IC-Num9 = &SendText("ぴゅ")
- key *IC-Num4 = &SendText("ぴぇ")
- key *IC-Num5 = &SendText("ぴょ")
-keymap cutkey-h-b-p
- key *IC-Num7 = &SendText("ぱ")
- key *IC-Num8 = &SendText("ぴ")
- key *IC-Num9 = &SendText("ぷ")
- key *IC-Num4 = &SendText("ぺ")
- key *IC-Num5 = &SendText("ぽ")
- key *IC-Num6 = &Prefix(cutkey-h-b-p-y)
-keymap cutkey-h-b-y
- key *IC-Num7 = &SendText("びゃ")
- key *IC-Num9 = &SendText("びゅ")
- key *IC-Num4 = &SendText("びぇ")
- key *IC-Num5 = &SendText("びょ")
 keymap cutkey-h-b
- key *IC-Num7 = &SendText("ば")
- key *IC-Num8 = &SendText("び")
- key *IC-Num9 = &SendText("ぶ")
- key *IC-Num4 = &SendText("べ")
- key *IC-Num5 = &SendText("ぼ")
- key *IC-NumPeriod = &Prefix(cutkey-h-b-p)
- key *IC-Num6 = &Prefix(cutkey-h-b-y)
-keymap cutkey-h-y
- key *IC-Num7 = &SendText("ひゃ")
- key *IC-Num9 = &SendText("ひゅ")
- key *IC-Num4 = &SendText("ひぇ")
- key *IC-Num5 = &SendText("ひょ")
+ key *IC-Num7 = B A
+ key *IC-Num8 = B I
+ key *IC-Num9 = B U
+ key *IC-Num4 = B E
+ key *IC-Num5 = B O
+ key *IC-Num6 = B Y
+ key *IC-NumPeriod = P
 keymap cutkey-h
- key *IC-Num7 = &SendText("は")
- key *IC-Num8 = &SendText("ひ")
- key *IC-Num9 = &SendText("ふ")
- key *IC-Num4 = &SendText("へ")
- key *IC-Num5 = &SendText("ほ")
+ key *IC-Num7 = H A
+ key *IC-Num8 = H I
+ key *IC-Num9 = H U
+ key *IC-Num4 = H E
+ key *IC-Num5 = H O
+ key *IC-Num6 = H Y
  key *IC-NumPeriod = &Prefix(cutkey-h-b)
- key *IC-Num6 = &Prefix(cutkey-h-y)
 
-keymap cutkey-r-m-l
- key *IC-Num7 = &SendText("ぁ")
- key *IC-Num8 = &SendText("ぃ")
- key *IC-Num9 = &SendText("ぅ")
- key *IC-Num4 = &SendText("ぇ")
- key *IC-Num5 = &SendText("ぉ")
-keymap cutkey-r-m-y
- key *IC-Num7 = &SendText("みゃ")
- key *IC-Num9 = &SendText("みゅ")
- key *IC-Num4 = &SendText("みぇ")
- key *IC-Num5 = &SendText("みょ")
 keymap cutkey-r-m
- key *IC-Num7 = &SendText("ま")
- key *IC-Num8 = &SendText("み")
- key *IC-Num9 = &SendText("む")
- key *IC-Num4 = &SendText("め")
- key *IC-Num5 = &SendText("も")
- key *IC-NumPlus = &Prefix(cutkey-r-m-l)
- key *IC-Num6 = &Prefix(cutkey-r-m-y)
-keymap cutkey-r-y
- key *IC-Num7 = &SendText("りゃ")
- key *IC-Num9 = &SendText("りゅ")
- key *IC-Num4 = &SendText("りぇ")
- key *IC-Num5 = &SendText("りょ")
+ key *IC-Num7 = M A
+ key *IC-Num8 = M I
+ key *IC-Num9 = M U
+ key *IC-Num4 = M E
+ key *IC-Num5 = M O
+ key *IC-Num6 = M Y
+ key *IC-NumPlus = L
 keymap cutkey-r
- key *IC-Num7 = &SendText("ら")
- key *IC-Num8 = &SendText("り")
- key *IC-Num9 = &SendText("る")
- key *IC-Num4 = &SendText("れ")
- key *IC-Num5 = &SendText("ろ")
+ key *IC-Num7 = R A
+ key *IC-Num8 = R I
+ key *IC-Num9 = R U
+ key *IC-Num4 = R E
+ key *IC-Num5 = R O
+ key *IC-Num6 = R Y
  key *IC-NumPlus = &Prefix(cutkey-r-m)
- key *IC-Num6 = &Prefix(cutkey-r-y)
 
-keymap cutkey-n-y
- key *IC-Num7 = &SendText("にゃ")
- key *IC-Num9 = &SendText("にゅ")
- key *IC-Num4 = &SendText("にぇ")
- key *IC-Num5 = &SendText("にょ")
-keymap cutkey-n
- key *IC-Num7 = &SendText("な")
- key *IC-Num8 = &SendText("に")
- key *IC-Num9 = &SendText("ぬ")
- key *IC-Num4 = &SendText("ね")
- key *IC-Num5 = &SendText("の")
- key *IC-Num1 = &SendText("ん") &Prefix(cutkey-k)
- key *IC-Num2 = &SendText("ん") &Prefix(cutkey-s)
- key *IC-Num3 = &SendText("ん") &Prefix(cutkey-t)
- key *IC-Num6 = &Prefix(cutkey-n-y)
- key *IC-Num0 = &SendText("ん")
- key *IC-NumPeriod = &SendText("ん") &Prefix(cutkey-h)
- key *IC-NumPlus = &SendText("ん") &Prefix(cutkey-r)
-
-keymap cutkey-y-w
- key *IC-Num7 = &SendText("わ")
- key *IC-Num5 = &SendText("を")
 keymap cutkey-y
- key *IC-Num7 = &SendText("や")
- key *IC-Num9 = &SendText("ゆ")
- key *IC-Num4 = &SendText("いぇ")
- key *IC-Num5 = &SendText("よ")
- key *IC-Num6 = &Prefix(cutkey-y-w)
+ key *IC-Num7 = Y A
+ key *IC-Num8 = Y I
+ key *IC-Num9 = Y U
+ key *IC-Num4 = Y E
+ key *IC-Num5 = Y O
+ key *IC-Num6 = W
 
 #keymap cutkey : Global
 keymap Global
- key *IC-Num7 = &SetImeStatus(on) &SendText("あ")
- key *IC-Num8 = &SetImeStatus(on) &SendText("い")
- key *IC-Num9 = &SetImeStatus(on) &SendText("う")
- key *IC-Num4 = &SetImeStatus(on) &SendText("え")
- key *IC-Num5 = &SetImeStatus(on) &SendText("お")
+ key *IC-Num7 = &SetImeStatus(on) A
+ key *IC-Num8 = &SetImeStatus(on) I
+ key *IC-Num9 = &SetImeStatus(on) U
+ key *IC-Num4 = &SetImeStatus(on) E
+ key *IC-Num5 = &SetImeStatus(on) O
  key *IC-Num6 = &SetImeStatus(on) &Prefix(cutkey-y)
  key *IC-Num1 = &SetImeStatus(on) &Prefix(cutkey-k)
  key *IC-Num2 = &SetImeStatus(on) &Prefix(cutkey-s)
  key *IC-Num3 = &SetImeStatus(on) &Prefix(cutkey-t)
- key *IC-Num0 = &SetImeStatus(on) &Prefix(cutkey-n)
+ key *IC-Num0 = &SetImeStatus(on) N
  key *IC-NumPeriod = &SetImeStatus(on) &Prefix(cutkey-h)
  # 0の段に3つキーが無いので
  key *IC-NumPlus = &SetImeStatus(on) &Prefix(cutkey-r)
