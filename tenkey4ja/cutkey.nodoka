@@ -100,6 +100,11 @@ keymap cutkey-y
  key *IC-Num5 = Y O
  key *IC-Num6 = W
 
+keymap cutkey-NumSlash
+ key *IC-Num7 = &SendText("ー") # 本来は「あ」の2回押し?
+ key *IC-Num8 = &SendText("、")
+ key *IC-Num9 = &SendText("。")
+
 #keymap cutkey : Global
 keymap Global
  key *IC-Num7 = &SetImeStatus(on) A
@@ -115,7 +120,7 @@ keymap Global
  key *IC-NumPeriod = &SetImeStatus(on) &Prefix(cutkey-h)
  # 0の段に3つキーが無いので
  key *IC-NumPlus = &SetImeStatus(on) &Prefix(cutkey-r)
- key *IC-NumMinus = &SetImeStatus(on) &SendText("ー") # 本来は「あ」の2回押し?
+ key *IC-NumSlash = &SetImeStatus(on) &Prefix(cutkey-NumSlash)
 
 # テンキー以外を押した時に、IMEをオフにする
 key  IL-*IC-*S-D-A = &SetImeStatus(off) &KeymapParent
