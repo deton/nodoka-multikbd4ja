@@ -10,7 +10,7 @@
 # * 「や」(1キー)「ゆ」(2キー)「よ」(3キー)を母音扱い
 # * 二重母音「あい」(9キー)と「おう」(0キー)を追加
 # * 濁音(+キー)2回で「っ」
-# * /キーで「、」、.キーで「。」
+# * ".4"で「、」、".5"で「。」
 #
 # 参考:
 # * チョイ入力
@@ -221,6 +221,10 @@ keymap choi10key-w
 keymap choi10key-NumPlus
  key *IC-NumPlus = &SendText("っ")
 
+keymap choi10key-NumPeriod
+ key *IC-Num4 = &SendText("、")
+ key *IC-Num5 = &SendText("。")
+
 #keymap choi10key : Global
 keymap Global
  key *IC-Num4 = &SetImeStatus(on) &Prefix(choi10key-a)
@@ -234,8 +238,7 @@ keymap Global
  key *IC-Num3 = &SetImeStatus(on) &Prefix(choi10key-r)
  key *IC-Num0 = &SetImeStatus(on) &Prefix(choi10key-w)
  key *IC-NumPlus = &SetImeStatus(on) &Prefix(choi10key-NumPlus)
- key *IC-NumPeriod = &SetImeStatus(on) &SendText("。")
- key *IC-NumSlash = &SetImeStatus(on) &SendText("、")
+ key *IC-NumPeriod = &SetImeStatus(on) &Prefix(choi10key-NumPeriod)
 
 # テンキー以外を押した時に、IMEをオフにする
 key  IL-*IC-*S-D-A = &SetImeStatus(off) &KeymapParent
