@@ -28,8 +28,9 @@
 * ksiki.nodoka: [K式入力](http://www.d-tech.jp)
 
 ## 参考
+* [のどか付属のkeitai.nodoka](http://www.appletkan.com/nodoka-doc/keitai.nodoka.txt)。テンキーを用いてIME ON時に携帯電話ライクかな入力。[トグル入力方式](https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%B0%E3%83%AB%E5%85%A5%E5%8A%9B)
 * [片手入力キーボード](http://www.jiten.com/dicmi/docs/k6/15094s.htm)
 * [[PDF]CUT Key、小野式キー配列等](http://www.pitecan.com/UnixMagazine/PDF/if9902.pdf)
 * [TouchMeKey等](http://www.pitecan.com/articles/HIS/InputSurvey/inputsurvey.html)
 * [[PDF]片手かな文字入力方式Kie12](http://www.interaction-ipsj.org/archives/paper2005/pdf2005/interactive/B213.pdf)
-* [2つ目のキーボードを日本語入力専用にする](https://github.com/deton/nodoka-multikbd4ja)
+* [2つ目のキーボードを日本語入力専用にする](https://github.com/deton/nodoka-multikbd4ja)のに比べると、キーボード1つでOK、Alt-Tabも問題なく使える、という利点あり。
