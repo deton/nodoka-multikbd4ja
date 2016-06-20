@@ -6,7 +6,7 @@
 # 2タッチ入力、ポケベル打ち
 # https://ja.wikipedia.org/wiki/2%E3%82%BF%E3%83%83%E3%83%81%E5%85%A5%E5%8A%9B
 
-keymap twotouch-a
+keymap twotouch-a : Global
  key *IC-Num1 = &SendText("あ")
  key *IC-Num2 = &SendText("い")
  key *IC-Num3 = &SendText("う")
@@ -18,7 +18,7 @@ keymap twotouch-a
  key *IC-Num9 = &SendText("ぇ")
  key *IC-Num0 = &SendText("ぉ")
 
-keymap twotouch-k
+keymap twotouch-k : Global
  key *IC-Num1 = &SendText("か")
  key *IC-Num2 = &SendText("き")
  key *IC-Num3 = &SendText("く")
@@ -27,14 +27,14 @@ keymap twotouch-k
  key *IC-Num6 = &SendText("ヵ")
  key *IC-Num9 = &SendText("ヶ")
 
-keymap twotouch-s
+keymap twotouch-s : Global
  key *IC-Num1 = &SendText("さ")
  key *IC-Num2 = &SendText("し")
  key *IC-Num3 = &SendText("す")
  key *IC-Num4 = &SendText("せ")
  key *IC-Num5 = &SendText("そ")
 
-keymap twotouch-t
+keymap twotouch-t : Global
  key *IC-Num1 = &SendText("た")
  key *IC-Num2 = &SendText("ち")
  key *IC-Num3 = &SendText("つ")
@@ -42,28 +42,28 @@ keymap twotouch-t
  key *IC-Num5 = &SendText("と")
  key *IC-Num6 = &SendText("っ")
 
-keymap twotouch-n
+keymap twotouch-n : Global
  key *IC-Num1 = &SendText("な")
  key *IC-Num2 = &SendText("に")
  key *IC-Num3 = &SendText("ぬ")
  key *IC-Num4 = &SendText("ね")
  key *IC-Num5 = &SendText("の")
 
-keymap twotouch-h
+keymap twotouch-h : Global
  key *IC-Num1 = &SendText("は")
  key *IC-Num2 = &SendText("ひ")
  key *IC-Num3 = &SendText("ふ")
  key *IC-Num4 = &SendText("へ")
  key *IC-Num5 = &SendText("ほ")
 
-keymap twotouch-m
+keymap twotouch-m : Global
  key *IC-Num1 = &SendText("ま")
  key *IC-Num2 = &SendText("み")
  key *IC-Num3 = &SendText("む")
  key *IC-Num4 = &SendText("め")
  key *IC-Num5 = &SendText("も")
 
-keymap twotouch-y
+keymap twotouch-y : Global
  key *IC-Num1 = &SendText("や")
  key *IC-Num2 = &SendText("ゆ")
  key *IC-Num3 = &SendText("よ")
@@ -71,14 +71,14 @@ keymap twotouch-y
  key *IC-Num5 = &SendText("ゅ")
  key *IC-Num6 = &SendText("ょ")
 
-keymap twotouch-r
+keymap twotouch-r : Global
  key *IC-Num1 = &SendText("ら")
  key *IC-Num2 = &SendText("り")
  key *IC-Num3 = &SendText("る")
  key *IC-Num4 = &SendText("れ")
  key *IC-Num5 = &SendText("ろ")
 
-keymap twotouch-w
+keymap twotouch-w : Global
  key *IC-Num1 = &SendText("わ")
  key *IC-Num2 = &SendText("を")
  key *IC-Num3 = &SendText("ん")
@@ -91,16 +91,26 @@ keymap twotouch-w
 
 #keymap twotouch : Global
 keymap Global
- key *IC-Num1 = &SetImeStatus(on) &Prefix(twotouch-a)
- key *IC-Num2 = &SetImeStatus(on) &Prefix(twotouch-k)
- key *IC-Num3 = &SetImeStatus(on) &Prefix(twotouch-s)
- key *IC-Num4 = &SetImeStatus(on) &Prefix(twotouch-t)
- key *IC-Num5 = &SetImeStatus(on) &Prefix(twotouch-n)
- key *IC-Num6 = &SetImeStatus(on) &Prefix(twotouch-h)
- key *IC-Num7 = &SetImeStatus(on) &Prefix(twotouch-m)
- key *IC-Num8 = &SetImeStatus(on) &Prefix(twotouch-y)
- key *IC-Num9 = &SetImeStatus(on) &Prefix(twotouch-r)
- key *IC-Num0 = &SetImeStatus(on) &Prefix(twotouch-w)
+ key  IL-*IC-Num1 = &Prefix(twotouch-a)
+ key  IL-*IC-Num2 = &Prefix(twotouch-k)
+ key  IL-*IC-Num3 = &Prefix(twotouch-s)
+ key  IL-*IC-Num4 = &Prefix(twotouch-t)
+ key  IL-*IC-Num5 = &Prefix(twotouch-n)
+ key  IL-*IC-Num6 = &Prefix(twotouch-h)
+ key  IL-*IC-Num7 = &Prefix(twotouch-m)
+ key  IL-*IC-Num8 = &Prefix(twotouch-y)
+ key  IL-*IC-Num9 = &Prefix(twotouch-r)
+ key  IL-*IC-Num0 = &Prefix(twotouch-w)
+ key ~IL-*IC-Num1 = &SetImeStatus(on) &Prefix(twotouch-a)
+ key ~IL-*IC-Num2 = &SetImeStatus(on) &Prefix(twotouch-k)
+ key ~IL-*IC-Num3 = &SetImeStatus(on) &Prefix(twotouch-s)
+ key ~IL-*IC-Num4 = &SetImeStatus(on) &Prefix(twotouch-t)
+ key ~IL-*IC-Num5 = &SetImeStatus(on) &Prefix(twotouch-n)
+ key ~IL-*IC-Num6 = &SetImeStatus(on) &Prefix(twotouch-h)
+ key ~IL-*IC-Num7 = &SetImeStatus(on) &Prefix(twotouch-m)
+ key ~IL-*IC-Num8 = &SetImeStatus(on) &Prefix(twotouch-y)
+ key ~IL-*IC-Num9 = &SetImeStatus(on) &Prefix(twotouch-r)
+ key ~IL-*IC-Num0 = &SetImeStatus(on) &Prefix(twotouch-w)
 
 # テンキー以外を押した時に、IMEをオフにする
 key  IL-*IC-*S-D-A = &SetImeStatus(off) &KeymapParent

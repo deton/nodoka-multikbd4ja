@@ -6,7 +6,7 @@
 # CUT Key
 # http://www.cutkey.jp
 
-keymap cutkey-k-g
+keymap cutkey-k-g : Global
  key *IC-Num7 = G A
  key *IC-Num8 = G I
  key *IC-Num9 = G U
@@ -14,7 +14,7 @@ keymap cutkey-k-g
  key *IC-Num5 = G O
  key *IC-Num6 = G Y
  key *IC-Num1 = F
-keymap cutkey-k
+keymap cutkey-k : Global
  key *IC-Num7 = K A
  key *IC-Num8 = K I
  key *IC-Num9 = K U
@@ -23,7 +23,7 @@ keymap cutkey-k
  key *IC-Num6 = K Y
  key *IC-Num1 = &Prefix(cutkey-k-g)
 
-keymap cutkey-s-z
+keymap cutkey-s-z : Global
  key *IC-Num7 = Z A
  key *IC-Num8 = Z I
  key *IC-Num9 = Z U
@@ -31,7 +31,7 @@ keymap cutkey-s-z
  key *IC-Num5 = Z O
  key *IC-Num6 = Z Y
  key *IC-Num2 = J
-keymap cutkey-s
+keymap cutkey-s : Global
  key *IC-Num7 = S A
  key *IC-Num8 = S I
  key *IC-Num9 = S U
@@ -40,7 +40,7 @@ keymap cutkey-s
  key *IC-Num6 = S Y
  key *IC-Num2 = &Prefix(cutkey-s-z)
 
-keymap cutkey-t-d
+keymap cutkey-t-d : Global
  key *IC-Num7 = D A
  key *IC-Num8 = D I
  key *IC-Num9 = D U
@@ -48,7 +48,7 @@ keymap cutkey-t-d
  key *IC-Num5 = D O
  key *IC-Num6 = D Y
  key *IC-Num3 = V
-keymap cutkey-t
+keymap cutkey-t : Global
  key *IC-Num7 = T A
  key *IC-Num8 = T I
  key *IC-Num9 = T U
@@ -58,7 +58,7 @@ keymap cutkey-t
  key *IC-Num3 = &Prefix(cutkey-t-d)
  key *IC-NumPlus = &SendText("っ") # 本来は「え」の2回押し?
 
-keymap cutkey-h-b
+keymap cutkey-h-b : Global
  key *IC-Num7 = B A
  key *IC-Num8 = B I
  key *IC-Num9 = B U
@@ -66,7 +66,7 @@ keymap cutkey-h-b
  key *IC-Num5 = B O
  key *IC-Num6 = B Y
  key *IC-NumPeriod = P
-keymap cutkey-h
+keymap cutkey-h : Global
  key *IC-Num7 = H A
  key *IC-Num8 = H I
  key *IC-Num9 = H U
@@ -75,7 +75,7 @@ keymap cutkey-h
  key *IC-Num6 = H Y
  key *IC-NumPeriod = &Prefix(cutkey-h-b)
 
-keymap cutkey-r-m
+keymap cutkey-r-m : Global
  key *IC-Num7 = M A
  key *IC-Num8 = M I
  key *IC-Num9 = M U
@@ -83,7 +83,7 @@ keymap cutkey-r-m
  key *IC-Num5 = M O
  key *IC-Num6 = M Y
  key *IC-NumPlus = L
-keymap cutkey-r
+keymap cutkey-r : Global
  key *IC-Num7 = R A
  key *IC-Num8 = R I
  key *IC-Num9 = R U
@@ -92,7 +92,7 @@ keymap cutkey-r
  key *IC-Num6 = R Y
  key *IC-NumPlus = &Prefix(cutkey-r-m)
 
-keymap cutkey-y
+keymap cutkey-y : Global
  key *IC-Num7 = Y A
  key *IC-Num8 = Y I
  key *IC-Num9 = Y U
@@ -100,27 +100,39 @@ keymap cutkey-y
  key *IC-Num5 = Y O
  key *IC-Num6 = W
 
-keymap cutkey-NumSlash
+keymap cutkey-NumSlash : Global
  key *IC-Num7 = &SendText("ー") # 本来は「あ」の2回押し?
  key *IC-Num8 = &SendText("、")
  key *IC-Num9 = &SendText("。")
 
 #keymap cutkey : Global
 keymap Global
- key *IC-Num7 = &SetImeStatus(on) A
- key *IC-Num8 = &SetImeStatus(on) I
- key *IC-Num9 = &SetImeStatus(on) U
- key *IC-Num4 = &SetImeStatus(on) E
- key *IC-Num5 = &SetImeStatus(on) O
- key *IC-Num6 = &SetImeStatus(on) &Prefix(cutkey-y)
- key *IC-Num1 = &SetImeStatus(on) &Prefix(cutkey-k)
- key *IC-Num2 = &SetImeStatus(on) &Prefix(cutkey-s)
- key *IC-Num3 = &SetImeStatus(on) &Prefix(cutkey-t)
- key *IC-Num0 = &SetImeStatus(on) N
- key *IC-NumPeriod = &SetImeStatus(on) &Prefix(cutkey-h)
- # 0の段に3つキーが無いので
- key *IC-NumPlus = &SetImeStatus(on) &Prefix(cutkey-r)
- key *IC-NumSlash = &SetImeStatus(on) &Prefix(cutkey-NumSlash)
+ key  IL-*IC-Num7 = A
+ key  IL-*IC-Num8 = I
+ key  IL-*IC-Num9 = U
+ key  IL-*IC-Num4 = E
+ key  IL-*IC-Num5 = O
+ key  IL-*IC-Num6 = &Prefix(cutkey-y)
+ key  IL-*IC-Num1 = &Prefix(cutkey-k)
+ key  IL-*IC-Num2 = &Prefix(cutkey-s)
+ key  IL-*IC-Num3 = &Prefix(cutkey-t)
+ key  IL-*IC-Num0 = N
+ key  IL-*IC-NumPeriod = &Prefix(cutkey-h)
+ key  IL-*IC-NumPlus = &Prefix(cutkey-r) # 0の段に3つキーが無いので
+ key  IL-*IC-NumSlash = &Prefix(cutkey-NumSlash)
+ key ~IL-*IC-Num7 = &SetImeStatus(on) A
+ key ~IL-*IC-Num8 = &SetImeStatus(on) I
+ key ~IL-*IC-Num9 = &SetImeStatus(on) U
+ key ~IL-*IC-Num4 = &SetImeStatus(on) E
+ key ~IL-*IC-Num5 = &SetImeStatus(on) O
+ key ~IL-*IC-Num6 = &SetImeStatus(on) &Prefix(cutkey-y)
+ key ~IL-*IC-Num1 = &SetImeStatus(on) &Prefix(cutkey-k)
+ key ~IL-*IC-Num2 = &SetImeStatus(on) &Prefix(cutkey-s)
+ key ~IL-*IC-Num3 = &SetImeStatus(on) &Prefix(cutkey-t)
+ key ~IL-*IC-Num0 = &SetImeStatus(on) N
+ key ~IL-*IC-NumPeriod = &SetImeStatus(on) &Prefix(cutkey-h)
+ key ~IL-*IC-NumPlus = &SetImeStatus(on) &Prefix(cutkey-r)
+ key ~IL-*IC-NumSlash = &SetImeStatus(on) &Prefix(cutkey-NumSlash)
 
 # テンキー以外を押した時に、IMEをオフにする
 key  IL-*IC-*S-D-A = &SetImeStatus(off) &KeymapParent

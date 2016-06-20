@@ -6,7 +6,7 @@
 # K式入力
 # http://www.d-tech.jp/
 
-keymap ksiki-y
+keymap ksiki-y : Global
  key *IC-Num7        = Y A
  key *IC-NumSlash    = Y I
  key *IC-NumAsterisk = Y U
@@ -14,7 +14,7 @@ keymap ksiki-y
  key *IC-NumPlus     = Y O
  key *IC-Num2        = J
 
-keymap ksiki-k
+keymap ksiki-k : Global
  key *IC-Num7        = K A
  key *IC-NumSlash    = K I
  key *IC-NumAsterisk = K U
@@ -23,7 +23,7 @@ keymap ksiki-k
  key *IC-Num8        = G
  key *IC-Num2        = K &Prefix(ksiki-y)
 
-keymap ksiki-s
+keymap ksiki-s : Global
  key *IC-Num7        = S A
  key *IC-NumSlash    = S I
  key *IC-NumAsterisk = S U
@@ -32,7 +32,7 @@ keymap ksiki-s
  key *IC-Num9        = Z
  key *IC-Num2        = S &Prefix(ksiki-y)
 
-keymap ksiki-t
+keymap ksiki-t : Global
  key *IC-Num7        = T A
  key *IC-NumSlash    = T I
  key *IC-NumAsterisk = T U
@@ -41,7 +41,7 @@ keymap ksiki-t
  key *IC-Num4        = D
  key *IC-Num2        = T &Prefix(ksiki-y)
 
-keymap ksiki-h-b
+keymap ksiki-h-b : Global
  key *IC-Num7        = B A
  key *IC-NumSlash    = B I
  key *IC-NumAsterisk = B U
@@ -49,7 +49,7 @@ keymap ksiki-h-b
  key *IC-NumPlus     = B O
  key *IC-Num6        = P
  key *IC-Num2        = B &Prefix(ksiki-y)
-keymap ksiki-h
+keymap ksiki-h : Global
  key *IC-Num7        = H A
  key *IC-NumSlash    = H I
  key *IC-NumAsterisk = H U
@@ -58,7 +58,7 @@ keymap ksiki-h
  key *IC-Num6        = &Prefix(ksiki-h-b)
  key *IC-Num2        = H &Prefix(ksiki-y)
 
-keymap ksiki-m
+keymap ksiki-m : Global
  key *IC-Num7        = M A
  key *IC-NumSlash    = M I
  key *IC-NumAsterisk = M U
@@ -67,7 +67,7 @@ keymap ksiki-m
  key *IC-Num1        = F
  key *IC-Num2        = M &Prefix(ksiki-y)
 
-keymap ksiki-r
+keymap ksiki-r : Global
  key *IC-Num7        = R A
  key *IC-NumSlash    = R I
  key *IC-NumAsterisk = R U
@@ -76,16 +76,17 @@ keymap ksiki-r
  key *IC-Num3        = L
  key *IC-Num2        = R &Prefix(ksiki-y)
 
-keymap ksiki-w
+keymap ksiki-w : Global
  key *IC-Num7        = W A
  key *IC-NumSlash    = W I
- # 「ん」は2タッチと記述はあるが、シーケンス不明。「わをん」が見えるのでここに
+ # 「ん」は2タッチと記述はあるが、シーケンス不明。
+ # キーボード写真に「わをん」が見えるのでここに
  key *IC-NumAsterisk = &SendText("ん")
  key *IC-NumMinus    = W E
  key *IC-NumPlus     = W O
  key *IC-Num0        = V
 
-keymap ksiki-d
+keymap ksiki-d : Global
  key *IC-Num7        = D A
  key *IC-NumSlash    = D I
  # 「っ」は3タッチと記述はあるが、具体的なシーケンス不明なので、".4*"に
@@ -94,7 +95,7 @@ keymap ksiki-d
  key *IC-NumPlus     = D O
  key *IC-Num2        = D &Prefix(ksiki-y)
 
-keymap ksiki-seigyo
+keymap ksiki-seigyo : Global
  key *IC-Num7        = &SendText("。")
  key *IC-NumSlash    = &SendText("、")
  key *IC-NumAsterisk = Q
@@ -111,7 +112,7 @@ keymap ksiki-seigyo
  key *IC-Num0 = V
  key *IC-NumPeriod = &SendText("ー")
 
-keymap ksiki-n
+keymap ksiki-n : Global
  key *IC-Num7        = N A
  key *IC-NumSlash    = N I
  key *IC-NumAsterisk = N U
@@ -130,21 +131,36 @@ keymap ksiki-n
 
 #keymap ksiki : Global
 keymap Global
- key *IC-Num7        = &SetImeStatus(on) A
- key *IC-NumSlash    = &SetImeStatus(on) I
- key *IC-NumAsterisk = &SetImeStatus(on) U
- key *IC-NumMinus    = &SetImeStatus(on) E
- key *IC-NumPlus     = &SetImeStatus(on) O
- key *IC-Num8 = &SetImeStatus(on) &Prefix(ksiki-k)
- key *IC-Num9 = &SetImeStatus(on) &Prefix(ksiki-s)
- key *IC-Num4 = &SetImeStatus(on) &Prefix(ksiki-t)
- key *IC-Num5 = &SetImeStatus(on) &Prefix(ksiki-n)
- key *IC-Num6 = &SetImeStatus(on) &Prefix(ksiki-h)
- key *IC-Num1 = &SetImeStatus(on) &Prefix(ksiki-m)
- key *IC-Num2 = &SetImeStatus(on) &Prefix(ksiki-y)
- key *IC-Num3 = &SetImeStatus(on) &Prefix(ksiki-r)
- key *IC-Num0 = &SetImeStatus(on) &Prefix(ksiki-w)
- key *IC-NumPeriod = &SetImeStatus(on) &Prefix(ksiki-seigyo)
+ key  IL-*IC-Num7        = A
+ key  IL-*IC-NumSlash    = I
+ key  IL-*IC-NumAsterisk = U
+ key  IL-*IC-NumMinus    = E
+ key  IL-*IC-NumPlus     = O
+ key  IL-*IC-Num8 = &Prefix(ksiki-k)
+ key  IL-*IC-Num9 = &Prefix(ksiki-s)
+ key  IL-*IC-Num4 = &Prefix(ksiki-t)
+ key  IL-*IC-Num5 = &Prefix(ksiki-n)
+ key  IL-*IC-Num6 = &Prefix(ksiki-h)
+ key  IL-*IC-Num1 = &Prefix(ksiki-m)
+ key  IL-*IC-Num2 = &Prefix(ksiki-y)
+ key  IL-*IC-Num3 = &Prefix(ksiki-r)
+ key  IL-*IC-Num0 = &Prefix(ksiki-w)
+ key  IL-*IC-NumPeriod = &Prefix(ksiki-seigyo)
+ key ~IL-*IC-Num7        = &SetImeStatus(on) A
+ key ~IL-*IC-NumSlash    = &SetImeStatus(on) I
+ key ~IL-*IC-NumAsterisk = &SetImeStatus(on) U
+ key ~IL-*IC-NumMinus    = &SetImeStatus(on) E
+ key ~IL-*IC-NumPlus     = &SetImeStatus(on) O
+ key ~IL-*IC-Num8 = &SetImeStatus(on) &Prefix(ksiki-k)
+ key ~IL-*IC-Num9 = &SetImeStatus(on) &Prefix(ksiki-s)
+ key ~IL-*IC-Num4 = &SetImeStatus(on) &Prefix(ksiki-t)
+ key ~IL-*IC-Num5 = &SetImeStatus(on) &Prefix(ksiki-n)
+ key ~IL-*IC-Num6 = &SetImeStatus(on) &Prefix(ksiki-h)
+ key ~IL-*IC-Num1 = &SetImeStatus(on) &Prefix(ksiki-m)
+ key ~IL-*IC-Num2 = &SetImeStatus(on) &Prefix(ksiki-y)
+ key ~IL-*IC-Num3 = &SetImeStatus(on) &Prefix(ksiki-r)
+ key ~IL-*IC-Num0 = &SetImeStatus(on) &Prefix(ksiki-w)
+ key ~IL-*IC-NumPeriod = &SetImeStatus(on) &Prefix(ksiki-seigyo)
 
 # テンキー以外を押した時に、IMEをオフにする
 key  IL-*IC-*S-D-A = &SetImeStatus(off) &KeymapParent
