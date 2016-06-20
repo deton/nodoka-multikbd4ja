@@ -32,22 +32,13 @@ keymap ksiki-s
  key *IC-Num9        = Z
  key *IC-Num2        = S &Prefix(ksiki-y)
 
-keymap ksiki-t-d
- key *IC-Num7        = D A
- key *IC-NumSlash    = D I
- key *IC-NumAsterisk = D U
- key *IC-NumMinus    = D E
- key *IC-NumPlus     = D O
- key *IC-Num2        = D &Prefix(ksiki-y)
- # 「っ」は3タッチと記述はあるが、具体的なシーケンス不明なので、Num4 3回に
- key *IC-Num4        = &SendText("っ")
 keymap ksiki-t
  key *IC-Num7        = T A
  key *IC-NumSlash    = T I
  key *IC-NumAsterisk = T U
  key *IC-NumMinus    = T E
  key *IC-NumPlus     = T O
- key *IC-Num4        = &Prefix(ksiki-t-d)
+ key *IC-Num4        = D
  key *IC-Num2        = T &Prefix(ksiki-y)
 
 keymap ksiki-h-b
@@ -94,6 +85,15 @@ keymap ksiki-w
  key *IC-NumPlus     = W O
  key *IC-Num0        = V
 
+keymap ksiki-d
+ key *IC-Num7        = D A
+ key *IC-NumSlash    = D I
+ # 「っ」は3タッチと記述はあるが、具体的なシーケンス不明なので、".4*"に
+ key *IC-NumAsterisk = &SendText("っ")
+ key *IC-NumMinus    = D E
+ key *IC-NumPlus     = D O
+ key *IC-Num2        = D &Prefix(ksiki-y)
+
 keymap ksiki-seigyo
  key *IC-Num7        = &SendText("。")
  key *IC-NumSlash    = &SendText("、")
@@ -102,7 +102,7 @@ keymap ksiki-seigyo
  key *IC-NumPlus     = C
  key *IC-Num8 = G
  key *IC-Num9 = Z
- key *IC-Num4 = D
+ key *IC-Num4 = &Prefix(ksiki-d)
  key *IC-Num5 = P
  key *IC-Num6 = B
  key *IC-Num1 = F
