@@ -22,7 +22,7 @@
 また、テンキー以外を打ち始めた時にIMEをオフにします。
 
 ## 片手入力方式4種類
-* choi10key.nodoka: 片手チョイ入力
+* choi10keymod.nodoka: 片手チョイ入力をベースに少し変更
 * twotouch.nodoka: [2タッチ入力、ポケベル打ち](https://ja.wikipedia.org/wiki/2%E3%82%BF%E3%83%83%E3%83%81%E5%85%A5%E5%8A%9B)
 * cutkey.nodoka: [CUT Key](http://www.cutkey.jp)
 * ksiki.nodoka: [K式入力](http://www.d-tech.jp)

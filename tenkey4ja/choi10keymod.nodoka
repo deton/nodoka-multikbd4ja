@@ -21,15 +21,15 @@
 # * 右手チョイをベースに「や、ゆ、よ」を母音扱い、二重母音追加、濁音2回で「っ」
 #   http://d.hatena.ne.jp/davs/20130506/1367813583
 
-keymap choi10key-a-NumAsterisk : Global
+keymap choi10keymod-a-NumAsterisk : Global
  key *IC-Num6 = &SendText("ヴ")
-keymap choi10key-a-NumPlus : Global
+keymap choi10keymod-a-NumPlus : Global
  key *IC-Num4 = &SendText("ぁ")
  key *IC-Num5 = &SendText("ぃ")
  key *IC-Num6 = &SendText("ぅ")
  key *IC-Num7 = &SendText("ぇ")
  key *IC-Num8 = &SendText("ぉ")
-keymap choi10key-a : Global
+keymap choi10keymod-a : Global
  key *IC-Num4 = &SendText("あ")
  key *IC-Num5 = &SendText("い")
  key *IC-Num6 = &SendText("う")
@@ -40,13 +40,13 @@ keymap choi10key-a : Global
  key *IC-Num3 = &SendText("よ")
  key *IC-Num9 = &SendText("あい")
  key *IC-Num0 = &SendText("おう")
- key *IC-NumPlus = &Prefix(choi10key-a-NumPlus)
- key *IC-NumAsterisk = &Prefix(choi10key-a-NumAsterisk)
+ key *IC-NumPlus = &Prefix(choi10keymod-a-NumPlus)
+ key *IC-NumAsterisk = &Prefix(choi10keymod-a-NumAsterisk)
 
-keymap choi10key-k-NumAsterisk : Global
+keymap choi10keymod-k-NumAsterisk : Global
  key *IC-Num4 = &SendText("ヵ")
  key *IC-Num7 = &SendText("ヶ")
-keymap choi10key-k-NumPlus : Global
+keymap choi10keymod-k-NumPlus : Global
  key *IC-Num4 = &SendText("が")
  key *IC-Num5 = &SendText("ぎ")
  key *IC-Num6 = &SendText("ぐ")
@@ -57,7 +57,7 @@ keymap choi10key-k-NumPlus : Global
  key *IC-Num3 = &SendText("ぎょ")
  key *IC-Num9 = &SendText("がい")
  key *IC-Num0 = &SendText("ごう")
-keymap choi10key-k : Global
+keymap choi10keymod-k : Global
  key *IC-Num4 = &SendText("か")
  key *IC-Num5 = &SendText("き")
  key *IC-Num6 = &SendText("く")
@@ -68,10 +68,10 @@ keymap choi10key-k : Global
  key *IC-Num3 = &SendText("きょ")
  key *IC-Num9 = &SendText("かい")
  key *IC-Num0 = &SendText("こう")
- key *IC-NumPlus = &Prefix(choi10key-k-NumPlus)
- key *IC-NumAsterisk = &Prefix(choi10key-k-NumAsterisk)
+ key *IC-NumPlus = &Prefix(choi10keymod-k-NumPlus)
+ key *IC-NumAsterisk = &Prefix(choi10keymod-k-NumAsterisk)
 
-keymap choi10key-s-NumPlus : Global
+keymap choi10keymod-s-NumPlus : Global
  key *IC-Num4 = &SendText("ざ")
  key *IC-Num5 = &SendText("じ")
  key *IC-Num6 = &SendText("ず")
@@ -82,7 +82,7 @@ keymap choi10key-s-NumPlus : Global
  key *IC-Num3 = &SendText("じょ")
  key *IC-Num9 = &SendText("ざい")
  key *IC-Num0 = &SendText("ぞう")
-keymap choi10key-s : Global
+keymap choi10keymod-s : Global
  key *IC-Num4 = &SendText("さ")
  key *IC-Num5 = &SendText("し")
  key *IC-Num6 = &SendText("す")
@@ -93,11 +93,11 @@ keymap choi10key-s : Global
  key *IC-Num3 = &SendText("しょ")
  key *IC-Num9 = &SendText("さい")
  key *IC-Num0 = &SendText("そう")
- key *IC-NumPlus = &Prefix(choi10key-s-NumPlus)
+ key *IC-NumPlus = &Prefix(choi10keymod-s-NumPlus)
 
-keymap choi10key-t-NumAsterisk : Global
+keymap choi10keymod-t-NumAsterisk : Global
  key *IC-Num6 = &SendText("っ")
-keymap choi10key-t-NumPlus : Global
+keymap choi10keymod-t-NumPlus : Global
  key *IC-Num4 = &SendText("だ")
  key *IC-Num5 = &SendText("ぢ")
  key *IC-Num6 = &SendText("づ")
@@ -108,7 +108,7 @@ keymap choi10key-t-NumPlus : Global
  key *IC-Num3 = &SendText("ぢょ")
  key *IC-Num9 = &SendText("だい")
  key *IC-Num0 = &SendText("どう")
-keymap choi10key-t : Global
+keymap choi10keymod-t : Global
  key *IC-Num4 = &SendText("た")
  key *IC-Num5 = &SendText("ち")
  key *IC-Num6 = &SendText("つ")
@@ -119,10 +119,10 @@ keymap choi10key-t : Global
  key *IC-Num3 = &SendText("ちょ")
  key *IC-Num9 = &SendText("たい")
  key *IC-Num0 = &SendText("とう")
- key *IC-NumPlus = &Prefix(choi10key-t-NumPlus)
- key *IC-NumAsterisk = &Prefix(choi10key-t-NumAsterisk)
+ key *IC-NumPlus = &Prefix(choi10keymod-t-NumPlus)
+ key *IC-NumAsterisk = &Prefix(choi10keymod-t-NumAsterisk)
 
-keymap choi10key-n : Global
+keymap choi10keymod-n : Global
  key *IC-Num4 = &SendText("な")
  key *IC-Num5 = &SendText("に")
  key *IC-Num6 = &SendText("ぬ")
@@ -135,7 +135,7 @@ keymap choi10key-n : Global
  key *IC-Num0 = &SendText("のう")
  key *IC-NumPlus = &SendText("ん")
 
-keymap choi10key-h-NumAsterisk : Global
+keymap choi10keymod-h-NumAsterisk : Global
  key *IC-Num4 = &SendText("ぱ")
  key *IC-Num5 = &SendText("ぴ")
  key *IC-Num6 = &SendText("ぷ")
@@ -146,7 +146,7 @@ keymap choi10key-h-NumAsterisk : Global
  key *IC-Num3 = &SendText("ぴょ")
  key *IC-Num9 = &SendText("ぱい")
  key *IC-Num0 = &SendText("ぽう")
-keymap choi10key-h-NumPlus : Global
+keymap choi10keymod-h-NumPlus : Global
  key *IC-Num4 = &SendText("ば")
  key *IC-Num5 = &SendText("び")
  key *IC-Num6 = &SendText("ぶ")
@@ -157,7 +157,7 @@ keymap choi10key-h-NumPlus : Global
  key *IC-Num3 = &SendText("びょ")
  key *IC-Num9 = &SendText("ばい")
  key *IC-Num0 = &SendText("ぼう")
-keymap choi10key-h : Global
+keymap choi10keymod-h : Global
  key *IC-Num4 = &SendText("は")
  key *IC-Num5 = &SendText("ひ")
  key *IC-Num6 = &SendText("ふ")
@@ -168,10 +168,10 @@ keymap choi10key-h : Global
  key *IC-Num3 = &SendText("ひょ")
  key *IC-Num9 = &SendText("はい")
  key *IC-Num0 = &SendText("ほう")
- key *IC-NumPlus = &Prefix(choi10key-h-NumPlus)
- key *IC-NumAsterisk = &Prefix(choi10key-h-NumAsterisk)
+ key *IC-NumPlus = &Prefix(choi10keymod-h-NumPlus)
+ key *IC-NumAsterisk = &Prefix(choi10keymod-h-NumAsterisk)
 
-keymap choi10key-m : Global
+keymap choi10keymod-m : Global
  key *IC-Num4 = &SendText("ま")
  key *IC-Num5 = &SendText("み")
  key *IC-Num6 = &SendText("む")
@@ -183,11 +183,11 @@ keymap choi10key-m : Global
  key *IC-Num9 = &SendText("まい")
  key *IC-Num0 = &SendText("もう")
 
-keymap choi10key-y-NumPlus : Global
+keymap choi10keymod-y-NumPlus : Global
  key *IC-Num4 = &SendText("ゃ")
  key *IC-Num6 = &SendText("ゅ")
  key *IC-Num8 = &SendText("ょ")
-keymap choi10key-y : Global
+keymap choi10keymod-y : Global
  key *IC-Num4 = &SendText("や")
  key *IC-Num6 = &SendText("ゆ")
  key *IC-Num8 = &SendText("よ")
@@ -196,9 +196,9 @@ keymap choi10key-y : Global
  key *IC-Num3 = &SendText("ょ")
  key *IC-Num9 = &SendText("やい")
  key *IC-Num0 = &SendText("よう")
- key *IC-NumPlus = &Prefix(choi10key-y-NumPlus)
+ key *IC-NumPlus = &Prefix(choi10keymod-y-NumPlus)
 
-keymap choi10key-r : Global
+keymap choi10keymod-r : Global
  key *IC-Num4 = &SendText("ら")
  key *IC-Num5 = &SendText("り")
  key *IC-Num6 = &SendText("る")
@@ -210,50 +210,50 @@ keymap choi10key-r : Global
  key *IC-Num9 = &SendText("らい")
  key *IC-Num0 = &SendText("ろう")
 
-keymap choi10key-w-NumPlus : Global
+keymap choi10keymod-w-NumPlus : Global
  key *IC-Num4 = &SendText("ゎ")
-keymap choi10key-w : Global
+keymap choi10keymod-w : Global
  key *IC-Num4 = &SendText("わ")
  key *IC-Num5 = &SendText("ゐ")
  key *IC-Num6 = &SendText("ん")
  key *IC-Num7 = &SendText("ゑ")
  key *IC-Num8 = &SendText("を")
  key *IC-Num9 = &SendText("わい")
- key *IC-NumPlus = &Prefix(choi10key-w-NumPlus)
+ key *IC-NumPlus = &Prefix(choi10keymod-w-NumPlus)
 
-keymap choi10key-NumPlus : Global
+keymap choi10keymod-NumPlus : Global
  key *IC-NumPlus = &SendText("っ")
 
-keymap choi10key-NumPeriod : Global
+keymap choi10keymod-NumPeriod : Global
  key *IC-Num4 = &SendText("、")
  key *IC-Num5 = &SendText("。")
 
-#keymap choi10key : Global
+#keymap choi10keymod : Global
 keymap Global
- key  IL-*IC-Num4 = &Prefix(choi10key-a)
- key  IL-*IC-Num5 = &Prefix(choi10key-k)
- key  IL-*IC-Num6 = &Prefix(choi10key-s)
- key  IL-*IC-Num7 = &Prefix(choi10key-t)
- key  IL-*IC-Num8 = &Prefix(choi10key-n)
- key  IL-*IC-Num9 = &Prefix(choi10key-h)
- key  IL-*IC-Num1 = &Prefix(choi10key-m)
- key  IL-*IC-Num2 = &Prefix(choi10key-y)
- key  IL-*IC-Num3 = &Prefix(choi10key-r)
- key  IL-*IC-Num0 = &Prefix(choi10key-w)
- key  IL-*IC-NumPlus = &Prefix(choi10key-NumPlus)
- key  IL-*IC-NumPeriod = &Prefix(choi10key-NumPeriod)
- key ~IL-*IC-Num4 = &SetImeStatus(on) &Prefix(choi10key-a)
- key ~IL-*IC-Num5 = &SetImeStatus(on) &Prefix(choi10key-k)
- key ~IL-*IC-Num6 = &SetImeStatus(on) &Prefix(choi10key-s)
- key ~IL-*IC-Num7 = &SetImeStatus(on) &Prefix(choi10key-t)
- key ~IL-*IC-Num8 = &SetImeStatus(on) &Prefix(choi10key-n)
- key ~IL-*IC-Num9 = &SetImeStatus(on) &Prefix(choi10key-h)
- key ~IL-*IC-Num1 = &SetImeStatus(on) &Prefix(choi10key-m)
- key ~IL-*IC-Num2 = &SetImeStatus(on) &Prefix(choi10key-y)
- key ~IL-*IC-Num3 = &SetImeStatus(on) &Prefix(choi10key-r)
- key ~IL-*IC-Num0 = &SetImeStatus(on) &Prefix(choi10key-w)
- key ~IL-*IC-NumPlus = &SetImeStatus(on) &Prefix(choi10key-NumPlus)
- key ~IL-*IC-NumPeriod = &SetImeStatus(on) &Prefix(choi10key-NumPeriod)
+ key  IL-*IC-Num4 = &Prefix(choi10keymod-a)
+ key  IL-*IC-Num5 = &Prefix(choi10keymod-k)
+ key  IL-*IC-Num6 = &Prefix(choi10keymod-s)
+ key  IL-*IC-Num7 = &Prefix(choi10keymod-t)
+ key  IL-*IC-Num8 = &Prefix(choi10keymod-n)
+ key  IL-*IC-Num9 = &Prefix(choi10keymod-h)
+ key  IL-*IC-Num1 = &Prefix(choi10keymod-m)
+ key  IL-*IC-Num2 = &Prefix(choi10keymod-y)
+ key  IL-*IC-Num3 = &Prefix(choi10keymod-r)
+ key  IL-*IC-Num0 = &Prefix(choi10keymod-w)
+ key  IL-*IC-NumPlus = &Prefix(choi10keymod-NumPlus)
+ key  IL-*IC-NumPeriod = &Prefix(choi10keymod-NumPeriod)
+ key ~IL-*IC-Num4 = &SetImeStatus(on) &Prefix(choi10keymod-a)
+ key ~IL-*IC-Num5 = &SetImeStatus(on) &Prefix(choi10keymod-k)
+ key ~IL-*IC-Num6 = &SetImeStatus(on) &Prefix(choi10keymod-s)
+ key ~IL-*IC-Num7 = &SetImeStatus(on) &Prefix(choi10keymod-t)
+ key ~IL-*IC-Num8 = &SetImeStatus(on) &Prefix(choi10keymod-n)
+ key ~IL-*IC-Num9 = &SetImeStatus(on) &Prefix(choi10keymod-h)
+ key ~IL-*IC-Num1 = &SetImeStatus(on) &Prefix(choi10keymod-m)
+ key ~IL-*IC-Num2 = &SetImeStatus(on) &Prefix(choi10keymod-y)
+ key ~IL-*IC-Num3 = &SetImeStatus(on) &Prefix(choi10keymod-r)
+ key ~IL-*IC-Num0 = &SetImeStatus(on) &Prefix(choi10keymod-w)
+ key ~IL-*IC-NumPlus = &SetImeStatus(on) &Prefix(choi10keymod-NumPlus)
+ key ~IL-*IC-NumPeriod = &SetImeStatus(on) &Prefix(choi10keymod-NumPeriod)
 
 # テンキー以外を押した時に、IMEをオフにする
 key  IL-*IC-*S-D-A = &SetImeStatus(off) &KeymapParent
