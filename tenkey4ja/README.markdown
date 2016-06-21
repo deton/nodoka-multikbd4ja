@@ -6,6 +6,7 @@
 * 日本語を入力したい時は、テンキーで打つ
 * 英字を入力したい時は、テンキー以外で打つ
 
+([2つ目のキーボードを日本語入力専用にする](https://github.com/deton/nodoka-multikbd4ja)のに比べると、キーボード1つでOK、Alt-Tabも問題なく使える、という利点あり)
 
 [汎用キーバインディング変更ソフト「のどか」](http://www.appletkan.com/nodoka.htm)
 を使った試作です。
@@ -33,4 +34,3 @@
 * [[PDF]CUT Key、小野式キー配列等](http://www.pitecan.com/UnixMagazine/PDF/if9902.pdf)
 * [TouchMeKey等](http://www.pitecan.com/articles/HIS/InputSurvey/inputsurvey.html)
 * [[PDF]片手かな文字入力方式Kie12](http://www.interaction-ipsj.org/archives/paper2005/pdf2005/interactive/B213.pdf)
-* [2つ目のキーボードを日本語入力専用にする](https://github.com/deton/nodoka-multikbd4ja)のに比べると、キーボード1つでOK、Alt-Tabも問題なく使える、という利点あり。
